@@ -1,0 +1,703 @@
+    .clear,
+    .clearfix:after,
+    .row:after {
+        clear: both
+    }
+    
+    .container {
+        position: relative;
+        width: 1320px;
+        margin: 0 auto;
+        max-width: 1200px;
+        /*padding: 0*/
+    }
+     .contact-form{
+      
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    /* padding: 0; */
+    max-width: 820px;
+}
+    .container .column,
+    .container .columns {
+        float: left;
+        display: inline;
+        margin: 17px
+    }
+    
+    .row {
+        margin-bottom: 50px
+    }
+    
+    .column.alpha,
+    .columns.alpha {
+        margin-left: 0
+    }
+    
+    .column.omega,
+    .columns.omega {
+        margin-right: 0
+    }
+    
+    .container .one.column,
+    .container .one.columns {
+        width: 60px
+    }
+    
+    .container .two.columns {
+        width: 170px
+    }
+    
+    .container .three.columns {
+        width: 296px
+    }
+    
+    .container .four.columns {
+        width: 390px
+    }
+    
+    .container .five.columns {
+        width: 500px
+    }
+    
+    .container .six.columns {
+        width: 610px
+    }
+    
+    .container .seven.columns {
+        width: 720px
+    }
+    
+    .container .eight.columns {
+        width: 830px
+    }
+    
+    .container .nine.columns {
+        width: 940px
+    }
+    
+    .container .ten.columns {
+        width: 1050px
+    }
+    
+    .container .eleven.columns {
+        width: 1160px
+    }
+    
+    .container .twelve.columns {
+        width: 1270px
+    }
+    
+    .container .one-fifth.column {
+        width: 214px
+    }
+    
+    .container .two-fifths.column {
+        width: 478px
+    }
+    
+    .container .three-fifths.column {
+        width: 742px
+    }
+    
+    .container .four-fifths.column {
+        width: 1006px
+    }
+    
+    .container .offset-by-one {
+        padding-left: 110px
+    }
+    
+    .container .offset-by-two {
+        padding-left: 220px
+    }
+    
+    .container .offset-by-three {
+        padding-left: 330px
+    }
+    
+    .container .offset-by-four {
+        padding-left: 440px
+    }
+    
+    .container .offset-by-five {
+        padding-left: 550px
+    }
+    
+    .container .offset-by-six {
+        padding-left: 660px
+    }
+    
+    .container .offset-by-seven {
+        padding-left: 770px
+    }
+    
+    .container .offset-by-eight {
+        padding-left: 880px
+    }
+    
+    .container .offset-by-nine {
+        padding-left: 990px
+    }
+    
+    .container .offset-by-ten {
+        padding-left: 1100px
+    }
+    
+    .container .offset-by-eleven {
+        padding-left: 1210px
+    }
+    
+    @media only screen and (min-width:1200px) and (max-width:1319px) {
+        .container {
+            position: relative;
+            width: 1090px;
+			/*width: 1200px;*/
+            margin: 0 auto;
+            padding: 0
+        }
+        .container .column,
+        .container .columns {
+            float: left;
+            display: inline;
+            margin: 10px
+        }
+        .row {
+            margin-bottom: 20px
+        }
+        .column.alpha,
+        .columns.alpha {
+            margin-left: 0
+        }
+        .column.omega,
+        .columns.omega {
+            margin-right: 0
+        }
+        .container .one.column,
+        .container .one.columns {
+            width: 80px
+        }
+        .container .two.columns {
+            width: 180px
+        }
+        .container .three.columns {
+            width: 280px
+        }
+        .container .four.columns {
+            width: 380px
+        }
+        .container .five.columns {
+            width: 480px
+        }
+        .container .six.columns {
+            width: 580px
+        }
+        .container .seven.columns {
+            width: 680px
+        }
+        .container .eight.columns {
+            width: 780px
+        }
+        .container .nine.columns {
+            width: 880px
+        }
+        .container .ten.columns {
+            width: 980px
+        }
+        .container .eleven.columns {
+            width: 1080px
+        }
+        .container .twelve.columns {
+            width: 1180px
+        }
+        .container .one-fifth.column {
+            width: 220px
+        }
+        .container .two-fifths.column {
+            width: 460px
+        }
+        .container .three-fifths.column {
+            width: 700px
+        }
+        .container .four-fifths.column {
+            width: 940px
+        }
+        .container .offset-by-one {
+            padding-left: 100px
+        }
+        .container .offset-by-two {
+            padding-left: 200px
+        }
+        .container .offset-by-three {
+            padding-left: 300px
+        }
+        .container .offset-by-four {
+            padding-left: 400px
+        }
+        .container .offset-by-five {
+            padding-left: 500px
+        }
+        .container .offset-by-six {
+            padding-left: 600px
+        }
+        .container .offset-by-seven {
+            padding-left: 700px
+        }
+        .container .offset-by-eight {
+            padding-left: 800px
+        }
+        .container .offset-by-nine {
+            padding-left: 900px
+        }
+        .container .offset-by-ten {
+            padding-left: 1000px
+        }
+        .container .offset-by-eleven {
+            padding-left: 1100px
+        }
+    }
+    
+    @media only screen and (min-width:960px) and (max-width:1199px) {
+        .container {
+            position: relative;
+            width: 843px;
+			/*width: 960px;*/
+            margin: 0 auto;
+            padding: 0
+        }
+        .container .column,
+        .container .columns {
+            float: left;
+            display: inline;
+            margin: 10px
+        }
+        .row {
+            margin-bottom: 20px
+        }
+        .column.alpha,
+        .columns.alpha {
+            margin-left: 0
+        }
+        .column.omega,
+        .columns.omega {
+            margin-right: 0
+        }
+        .container .one.column,
+        .container .one.columns {
+            width: 60px
+        }
+        .container .two.columns {
+            width: 140px
+        }
+        .container .three.columns {
+            width: 220px
+        }
+        .container .four.columns {
+            width: 300px
+        }
+        .container .five.columns {
+            width: 380px
+        }
+        .container .six.columns {
+            width: 460px
+        }
+        .container .seven.columns {
+            width: 540px
+        }
+        .container .eight.columns {
+            width: 620px
+        }
+        .container .nine.columns {
+            width: 700px
+        }
+        .container .ten.columns {
+            width: 780px
+        }
+        .container .eleven.columns {
+            width: 860px
+        }
+        .container .twelve.columns {
+            width: 940px
+        }
+        .container .one-fifth.column {
+            width: 172px
+        }
+        .container .two-fifths.column {
+            width: 364px
+        }
+        .container .three-fifths.column {
+            width: 556px
+        }
+        .container .four-fifths.column {
+            width: 748px
+        }
+        .container .offset-by-one {
+            padding-left: 80px
+        }
+        .container .offset-by-two {
+            padding-left: 160px
+        }
+        .container .offset-by-three {
+            padding-left: 240px
+        }
+        .container .offset-by-four {
+            padding-left: 320px
+        }
+        .container .offset-by-five {
+            padding-left: 400px
+        }
+        .container .offset-by-six {
+            padding-left: 480px
+        }
+        .container .offset-by-seven {
+            padding-left: 560px
+        }
+        .container .offset-by-eight {
+            padding-left: 640px
+        }
+        .container .offset-by-nine {
+            padding-left: 720px
+        }
+        .container .offset-by-ten {
+            padding-left: 800px
+        }
+        .container .offset-by-eleven {
+            padding-left: 880px
+        }
+    }
+    
+    @media only screen and (min-width:768px) and (max-width:959px) {
+        .container {
+            width: 768px
+        }
+        .container .column,
+        .container .columns {
+            margin: 10px
+        }
+        .column.alpha,
+        .columns.alpha {
+            margin-left: 0;
+            margin-right: 10px
+        }
+        .column.omega,
+        .columns.omega {
+            margin-right: 0;
+            margin-left: 10px
+        }
+        .alpha.omega {
+            margin-left: 0;
+            margin-right: 0
+        }
+        .container .one.column,
+        .container .one.columns {
+            width: 44px
+        }
+        .container .two.columns {
+/*            width: 108px*/
+            width: 102px
+        }
+        .container .three.columns {
+/*            width: 172px*/
+            width: 360px
+        }
+        .container .four.columns {
+            width: 236px
+        }
+        .container .five.columns {
+            width: 300px
+        }
+        .container .six.columns {
+            width: 364px
+        }
+        .container .seven.columns {
+            width: 428px
+        }
+        .container .eight.columns {
+            width: 492px
+        }
+        .container .nine.columns {
+            width: 556px
+        }
+        .container .ten.columns {
+            width: 620px
+        }
+        .container .eleven.columns {
+            width: 684px
+        }
+        .container .twelve.columns {
+            width: 748px
+        }
+        .container .one-fifth.column {
+            width: 133.6px
+        }
+        .container .two-fifths.column {
+            width: 287.2px
+        }
+        .container .three-fifths.column {
+            width: 440.8px
+        }
+        .container .four-fifths.column {
+            width: 594.4px
+        }
+        .container .offset-by-one {
+            padding-left: 64px
+        }
+        .container .offset-by-two {
+            padding-left: 128px
+        }
+        .container .offset-by-three {
+            padding-left: 192px
+        }
+        .container .offset-by-four {
+            padding-left: 256px
+        }
+        .container .offset-by-five {
+            padding-left: 320px
+        }
+        .container .offset-by-six {
+            padding-left: 384px
+        }
+        .container .offset-by-seven {
+            padding-left: 448px
+        }
+        .container .offset-by-eight {
+            padding-left: 512px
+        }
+        .container .offset-by-nine {
+            padding-left: 576px
+        }
+        .container .offset-by-ten {
+            padding-left: 640px
+        }
+        .container .offset-by-eleven {
+            padding-left: 704px
+        }
+    }
+    
+    @media only screen and (min-width:480px) and (max-width:767px) {
+        .container,
+        .container .eight.columns,
+        .container .eleven.columns,
+        .container .five.columns,
+        .container .four-fifths.column,
+        .container .four.columns,
+        .container .nine.columns,
+        .container .one-fifth.column,
+        .container .one.column,
+        .container .one.columns,
+        .container .seven.columns,
+        .container .six.columns,
+        .container .ten.columns,
+        .container .three-fifths.column,
+        .container .three.columns,
+        .container .twelve.columns,
+        .container .two-fifths.column,
+        .container .two.columns {
+            width: 420px
+        }
+        .container .column,
+        .container .columns {
+            margin: 10px 0
+        }
+        .container .offset-by-eight,
+        .container .offset-by-eleven,
+        .container .offset-by-five,
+        .container .offset-by-four,
+        .container .offset-by-nine,
+        .container .offset-by-one,
+        .container .offset-by-seven,
+        .container .offset-by-six,
+        .container .offset-by-ten,
+        .container .offset-by-three,
+        .container .offset-by-two {
+            padding-left: 0
+        }
+    }
+    
+    @media only screen and (min-width:320px) and (max-width:479px) {
+        .container,
+        .container .eight.columns,
+        .container .eleven.columns,
+        .container .five.columns,
+        .container .four-fifths.column,
+        .container .four.columns,
+        .container .nine.columns,
+        .container .one-fifth.column,
+        .container .one.column,
+        .container .one.columns,
+        .container .seven.columns,
+        .container .six.columns,
+        .container .ten.columns,
+        .container .three-fifths.column,
+        .container .three.columns,
+        .container .twelve.columns,
+        .container .two-fifths.column,
+        .container .two.columns {
+            width: 300px
+        }
+        .container .column,
+        .container .columns {
+            margin: 10px 0
+        }
+        .container .offset-by-eight,
+        .container .offset-by-eleven,
+        .container .offset-by-five,
+        .container .offset-by-four,
+        .container .offset-by-nine,
+        .container .offset-by-one,
+        .container .offset-by-seven,
+        .container .offset-by-six,
+        .container .offset-by-ten,
+        .container .offset-by-three,
+        .container .offset-by-two {
+            padding-left: 0
+        }
+    }
+    
+    @media only screen and (max-width:319px) {
+        .container,
+        .container .eight.columns,
+        .container .eleven.columns,
+        .container .five.columns,
+        .container .four-fifths.column,
+        .container .four.columns,
+        .container .nine.columns,
+        .container .one-fifth.column,
+        .container .one.column,
+        .container .one.columns,
+        .container .seven.columns,
+        .container .six.columns,
+        .container .ten.columns,
+        .container .three-fifths.column,
+        .container .three.columns,
+        .container .two-fifths.column,
+        .container .two.columns {
+            width: 220px
+        }
+        .container .column,
+        .container .columns {
+            margin: 10px 0
+        }
+        .container .offset-by-eight,
+        .container .offset-by-eleven,
+        .container .offset-by-five,
+        .container .offset-by-four,
+        .container .offset-by-nine,
+        .container .offset-by-one,
+        .container .offset-by-seven,
+        .container .offset-by-six,
+        .container .offset-by-ten,
+        .container .offset-by-three,
+        .container .offset-by-two {
+            padding-left: 0
+        }
+    }
+    
+    .clear,
+    .clearfix:after,
+    .clearfix:before,
+    .row:after,
+    .row:before {
+        display: block;
+        overflow: hidden;
+        visibility: hidden;
+        width: 0;
+        height: 0
+    }
+    
+    .container:after {
+        content: "\0020";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden
+    }
+    
+    .clearfix:after,
+    .clearfix:before,
+    .row:after,
+    .row:before {
+        content: '\0020'
+    }
+    
+    .clearfix,
+    .row {
+        zoom: 1
+    }
+    
+    /*********************** APRIL 24 2017 *************************/
+    
+    .cjgroup-frame,.cjgroup-frame h4{ text-align: left; }
+    .cjgroup-list{ margin-bottom: 15px; }
+    .cjgroup-list li{ list-style-type: circle; display: block;line-height: 2; }
+    .cjgroup-btn li{ display: inline-block; }
+    .cjgroup-btn li a{
+        margin-right: 2px;
+        background: #e87638;
+        color: #fff;
+        font-size: 10px;
+        padding: 4px;
+        /*max-width: 150px;*/
+        border-radius: 0;
+        text-transform: uppercase;
+        width: auto;
+        letter-spacing: normal;
+        margin-bottom: 7px;
+    }
+    .cjgroup-img{ float: left;display: inline-block; width: 200px;margin-right: 15px;
+        background-position: center center; background-size: contain;background-repeat: no-repeat;
+    }
+    .cjgroup-img img{ width: 100%;visibility: hidden; }
+    .cjgroup-content{ float: left;display: inline-block; width: calc(100% - 215px) }
+    .food-categories{ margin-top: 25px; }
+    .food-categories h5{ text-align: left; font-size: 22px; margin-bottom: 15px; }
+    .food-categories ul{ padding-left: 20px; margin-top: 10px; font-size: 17px; }
+    .food-categories ul li{
+           line-height: 1.4;
+    list-style-type: disc;
+    padding-bottom: 10px;
+    font-size: 20px;
+    }
+    .royal_preloader_percentage{ display: none; }
+	
+    .tiny-container{ max-width: 960px;width: 100%; text-align: center;}
+	
+    .tiny-container h3{ margin-bottom: 15px; }
+    .tiny-container p{ margin-bottom: 10px; }
+    .careers-frame .row{ margin-bottom: 0px; padding-top: 5px;padding-bottom: 5px; }
+    .careers-frame .row:hover{ background: rgba(204, 204, 204, 0.37); background: rgba(234, 136, 35, 0.73); color: #fff; }
+    .careers-frame , .careers-frame h4{text-align: left;}
+    .careers-frame h4{text-align: left;margin: 20px 0 20px 0;}
+    .jobs-name span{
+        font-family: 'MuseoSans700', sans-serif;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+    .career-details{ padding-left: 20px; }
+    .careers-frame a{ color: #212121; cursor: pointer;}
+    .careers-frame a:hover{ text-decoration: none; }
+    
+    .career-details-frame p ,.career-details-frame u{ margin-bottom: 10px; }
+    .career-details-frame ul li{ line-height: 2; }
+    .career-details-frame ul li span , .function-name{     font-family: 'MuseoSans700', sans-serif; }
+    .career-details-frame h4{ text-align: left; margin: 10px 0 10px 0;}
+    .career-details-frame .career-detail-content{ margin-bottom: 25px; }
+    .career-detail-content ul{ padding-left: 30px;margin-top: 10px; }
+    .career-detail-content ul li{ list-style-type: disc; }
+    .career-details-frame a.career-apply-btn
+    {
+        margin-right: 5px;
+        background: #e87638;
+        color: #fff;
+        font-size: 13px;
+        padding: 10px;
+        border-radius: 0;
+        text-transform: uppercase;
+        max-width: auto;
+        letter-spacing: normal;
+    }
+    .career-details-frame .col-sm-3 img{ width:100%; }
+    
+    
