@@ -9,8 +9,8 @@
 			<div class="row">
 				<div class="col-md-4" data-scroll-reveal="enter bottom move 100px over 1s after 0.4s">
 				    <div class="footer-top">
-					<a href="https://foodot.com/">
-					    <img src="/assets/media/on_page_element/footer-logo.png" alt="Foodot" />
+					<a href="/">
+					    <img src="/assets/img/footer-logo.png" alt="Foodot" />
 					</a>
 				    </div>
 				</div>
@@ -39,7 +39,11 @@
 								<p class="footer-copyright"> &#169; <?=date('Y')?>  Foodot Inc. All Rights Reserved.</p>
 								<p>
 								    <!------------------------------- Navigation starts ------------------------>
-								    																		<a href="https://foodot.com/contact" target="_self"> Contact</a><a href="https://foodot.com/privacy-notice" target="_self"> Privacy Notice</a><a href="https://foodot.com/terms-of-use" target="_self"> Terms of Use</a><a href="https://cjamerica.com/catsca/" target="_blank"> California Transparency in Supply Chains Act</a><a href="https://foodot.com/accessibility-statement" target="_self"> Accessibility statement</a>								    								    <!------------------------------- Navigation ends ------------------------>
+                                    <a href="/contact" target="_self"> Contact</a>
+                                    <a href="/privacy-notice" target="_self"> Privacy Notice</a>
+                                    <a href="/terms-of-use" target="_self"> Terms of Use</a>
+                                    <a href="/catsca/" target="_blank"> California Transparency in Supply Chains Act</a>
+                                    <a href="/accessibility-statement" target="_self"> Accessibility statement</a>								    								    <!------------------------------- Navigation ends ------------------------>
 								</p>
 							</div>
 						</div> 

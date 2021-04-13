@@ -25,29 +25,29 @@
     <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1600px;height:750px;overflow:hidden;visibility:hidden;">
         <!-- Loading Screen -->
         <div data-u="loading" class="jssorl-oval" style="position:absolute;top:0px;left:0px;text-align:center;background-color:rgba(0,0,0,0.7);">
-            <img style="margin-top:-19.0px;position:relative;top:50%;width:38px;height:38px;" src="/assets/img/oval.svg" alt="slide-CJ-Foods" title="Slide CJ Foods" />
+            <img style="margin-top:-19.0px;position:relative;top:50%;width:38px;height:38px;" src="/assets/img/oval.svg" alt="slide-Foodot-Foods" title="Slide Foodot" />
         </div>
 
         <div class="slides01" data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1600px;height:750px;overflow:hidden;">
                             
-                <div class="slide-img" style="background-image:url('https://foodot.com/assets/media/slide/slide001.jpg')">
+                <div class="slide-img" style="background-image:url('/assets/img/slide001.jpg')">
                     <a href="#">
-                        <img data-u="image" src="https://foodot.com/assets/media/slide/slide001.jpg" alt="Introducing CJ Foods" title="Introducing CJ Foods"/>
+                        <img data-u="image" src="/assets/img/slide001.jpg" alt="Introducing Foodot" title="Introducing Foodot"/>
                         <div class="slide-contents">
                           
                          
                            
                              					     <H1>                        
-					     Introducing CJ Foods					     </H1>                                                              
+					     Introducing Foodot Inc					     </H1>                                                              
                             <p>
                                 The leading manufacturer and distributor of Asian food products in the U.S.                            </p>
                         </div>
                     </a>
                 </div>
                  
-                <div class="slide-img" style="background-image:url('https://foodot.com/assets/media/slide/slide002.jpg')">
+                <div class="slide-img" style="background-image:url('/assets/img/slide002.jpg')">
                     <a href="#">
-                        <img data-u="image" src="https://foodot.com/assets/media/slide/slide002.jpg" alt="Mission and Vision of CJ Foods" title="Mission and Vision of CJ Foods"/>
+                        <img data-u="image" src="/assets/img/slide002.jpg" alt="Mission and Vision of Foodot" title="Mission and Vision of Foodot"/>
                         <div class="slide-contents">
                           
                          
@@ -61,15 +61,15 @@ providing the best value with our OnlyOne products and services                 
                     </a>
                 </div>
                  
-                <div class="slide-img" style="background-image:url('https://foodot.com/assets/media/slide/slide016.jpg')">
+                <div class="slide-img" style="background-image:url('/assets/img/slide003.jpg')">
                     <a href="#">
-                        <img data-u="image" src="https://foodot.com/assets/media/slide/slide016.jpg" alt="Global CJ Cheiljedang - CJ Foods" title="Global CJ Cheiljedang - CJ Foods"/>
+                        <img data-u="image" src="/assets/img/slide003.jpg" alt="Cuisine of Korea - Foodot" title="Cuisine of Korea - Foodot"/>
                         <div class="slide-contents">
                           
                          
                            
                              					     <H2>                        
-					     Global CJ Cheiljedang					     </H2>                                                              
+					     Cuisine of Korea					     </H2>                                                              
                             <p>
                                 Inspiring a new life of health, happiness and convenience                            </p>
                         </div>
@@ -166,7 +166,7 @@ providing the best value with our OnlyOne products and services                 
     <div class="down-arrow down-arrow-green"></div>
 </div>
 
-<img src="https://foodot.com/assets/media/on_page_element/homepage-img.jpg" alt="CJ Cheiljedang" title="CJ Cheiljedang" style="width:100%;margin-bottom:-8px;">
+<img src="/assets/img/homepage-img01.jpg" alt="Cuisine of Korea" title="Cuisine of Korea" style="width:100%;margin-bottom:-8px;">
 <div class="down-arrow down-arrow-dark"></div>
  <!---------- SAFETY END---------------->
 
@@ -175,7 +175,7 @@ providing the best value with our OnlyOne products and services                 
     <div class="back-green ptb-50">
         <div class="container">
             <h3>Mission &amp; Vision </h3>
-             <p>CJ continuously strives to be innovative with the goal of providing products and services that achieve a high standard of excellence worldwide. Well-known for executing global strategies, CJ now has presence in more than 40 countries. By globalizing Korean cuisine and spreading Korean culture, CJ hopes to enrich lifestyles across the world.</p>             <ul class="vision-list">
+             <p>Foodot continuously strives to be innovative with the goal of providing products and services that achieve a high standard of excellence worldwide. Well-known for executing global strategies, Foodot now has presence in more than 40 countries. By globalizing Korean cuisine and spreading Korean culture, Foodot hopes to enrich lifestyles across the world.</p>             <ul class="vision-list">
 	<li>
 	<h4>Mission</h4>
 
@@ -197,15 +197,15 @@ providing the best value with our OnlyOne products and services                 
 </div>
  <!------------ VISION & MISSION END -------------->
 
-<!---------- CJ GROUP ------------------->
+<!---------- ETC GROUP ------------------->
 
-<div class="cjgroup-frame">
+<div">
     <div class="back-lightgray ptb-50">
         <div class="container">
-            <h3> CJ Group</h3>
+            <h3>??? Group</h3>
             <p>
                
-               <p>CJ is at the forefront of spreading K-Culture and influencing lifestyles all over the world. CJ strives to deliver rewarding experiences worldwide through Korean movies, food, TV shows and music. With our core values &quot;ONLYONE&quot;, &quot;Talent&quot;, and &quot;Shared Growth&quot; at heart, we seek new creative avenues and advance the industrial ground, offering differentiated customer values. CJ will continue to drive innovative lifestyles as a leading global lifestyle company and contribute to societies by providing the best value to our customers.</p>            </p>
+               <p>Foodot is at the forefront of spreading K-Culture and influencing lifestyles all over the world. Foodot strives to deliver rewarding experiences worldwide through Korean movies, food, TV shows and music. With our core values &quot;ONLYONE&quot;, &quot;Talent&quot;, and &quot;Shared Growth&quot; at heart, we seek new creative avenues and advance the industrial ground, offering differentiated customer values. Foodot will continue to drive innovative lifestyles as a leading global lifestyle company and contribute to societies by providing the best value to our customers.</p>            </p>
             <a href="http://english.cj.net/" class="btn btn-default btn-red" target="_blank"> Visit Website <strong class="fa fa-caret-right" aria-hidden="true"></strong></a>
         </div>
         <div class="container" style="width:100% !important; max-width:100% !important;">
@@ -219,9 +219,9 @@ providing the best value with our OnlyOne products and services                 
                                 <h4>Food & Food services</h4>
                                <p> No. 1 food company in Korea</p>
                                 <ul>
-                                    <li> <a href="http://www.cj.co.kr/cj-en/index" target="_blank">CJ CheilJedang</a></li>
-                                    <li><a href="https://www.cjfoodville.co.kr/eng/main.asp" target="_blank">CJ Foodville</a></li>
-                                    <li><a href="http://www.cjfreshway.com/en/main/main.asp" target="_blank">CJ Freshway</a></li>
+                                    <li> <a href="http://www.cj.co.kr/cj-en/index" target="_blank">Cuisine of Korea</a></li>
+                                    <li><a href="https://www.cjfoodville.co.kr/eng/main.asp" target="_blank">Foodot Foodville</a></li>
+                                    <li><a href="http://www.cjfreshway.com/en/main/main.asp" target="_blank">Foodot Freshway</a></li>
 
                                 </ul>                            </div>
                         </div>
@@ -234,8 +234,8 @@ providing the best value with our OnlyOne products and services                 
                                 <h4>Bio & Pharma</h4>
                                <p> Biotechnology with Global Triple Crown</p>
                                 <ul>
-                                    <li><a href="http://www.cjbio.net/main.asp" target="_blank">CJ CheilJedang Bio</a></li>
-                                    <li><a href="http://www.cjp.co.kr/eng/index.asp" target="_blank">CJ HealthCare</a></li>
+                                    <li><a href="http://www.cjbio.net/main.asp" target="_blank">Cuisine of Korea Bio</a></li>
+                                    <li><a href="http://www.cjp.co.kr/eng/index.asp" target="_blank">Foodot HealthCare</a></li>
 
                                 </ul>                            </div>
                         </div>
@@ -249,9 +249,9 @@ providing the best value with our OnlyOne products and services                 
                                <p>Center of Korean Culture</p>
 
 <ul>
-	<li><a href="http://cjenm.com/" target="_blank">CJ E&amp;M</a></li>
-	<li><a href="http://www.cgvcinemas.com/" target="_blank">CJ CGV</a></li>
-	<li><a href="http://www.cjpowercast.com/en" target="_blank">CJ Powercast</a></li>
+	<li><a href="http://cjenm.com/" target="_blank">Foodot E&amp;M</a></li>
+	<li><a href="http://www.cgvcinemas.com/" target="_blank">Foodot CGV</a></li>
+	<li><a href="http://www.cjpowercast.com/en" target="_blank">Foodot Powercast</a></li>
 </ul>                            </div>
                         </div>
                     </div>
@@ -263,9 +263,9 @@ providing the best value with our OnlyOne products and services                 
                                 <h4>Retail & Logistics</h4>
                                <p>World's #2 Home-Shopping Service, Korea's #1 Healthy & Beauty Store</p>
                                 <ul>
-                                    <li><a href="http://www.cjoshopping.com/eng/index.asp" target="_blank">CJ O Shopping</a></li>
-                                    <li><a href="http://www.cjolivenetworks.co.kr/" target="_blank">CJ OliveNetworks</a></li>
-                                    <li><a href="http://www.cjlogistics.com/web/en/index.asp" target="_blank">CJ Logistics</a></li>
+                                    <li><a href="http://www.cjoshopping.com/eng/index.asp" target="_blank">Foodot O Shopping</a></li>
+                                    <li><a href="http://www.cjolivenetworks.co.kr/" target="_blank">Foodot OliveNetworks</a></li>
+                                    <li><a href="http://www.cjlogistics.com/web/en/index.asp" target="_blank">Foodot Logistics</a></li>
 
                                 </ul>                            </div>
                         </div>
@@ -275,4 +275,4 @@ providing the best value with our OnlyOne products and services                 
         </div>
     </div>
 </div>
-<!------------ CJ GROUP ---------------->
+<!------------ Foodot GROUP ---------------->

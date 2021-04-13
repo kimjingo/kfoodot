@@ -112,8 +112,8 @@
         <div class="dark-over"></div>
         <div class="menu-container">
             <div class="logo">
-                <a href="https://foodot.com/">
-                    <img src="https://foodot.com/assets/media/on_page_element/foodot-logo.png" alt="CJ Foods"/>
+                <a href="/">
+                    <img src="/assets/img/foodot-logo.png" alt="CJ Foods"/>
                 </a>
             </div>
             <div class="menu">
