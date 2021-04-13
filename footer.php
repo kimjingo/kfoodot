@@ -10,7 +10,7 @@
 				<div class="col-md-4" data-scroll-reveal="enter bottom move 100px over 1s after 0.4s">
 				    <div class="footer-top">
 					<a href="https://foodot.com/">
-					    <img src="https://foodot.com/assets/media/on_page_element/footer-logo.png" alt="CJ Foods" />
+					    <img src="/assets/media/on_page_element/footer-logo.png" alt="Foodot" />
 					</a>
 				    </div>
 				</div>
@@ -24,24 +24,23 @@
 									
 								<div  class="address" itemscope itemtype="http://schema.org/LocalBusiness">
 									<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" onclick="window.open('https://maps.google.com/?cid=14622539413831140134')" style="cursor:pointer">
-										<span itemprop="streetAddress">4 Centerpointe Drive Ste. 100</span>,
-										<span itemprop="addressLocality">La Palma</span>,
+										<span itemprop="streetAddress">22912 LOCKNESS AVE.</span>,
+										<span itemprop="addressLocality">TORRANCE</span>,
 										<span itemprop="addressRegion">CA</span>
-										<span itemprop="postalCode">90623</span> 
+										<span itemprop="postalCode">90501</span> 
 									       
 									</div>
 								</div>
 							       
                                                              
-								<p><span>Tel:</span>714-367-7200 <span>Fax:</span>714-367-7192</p>
+								<p><span>Tel:</span>000-000-0000 <span>Fax:</span>111-111-1111</p>
 							   </div>
 						 							<div class="col-md-6 copy-right">
-								<p class="footer-copyright"> &#169; 2021  CJ Foods. Inc. All Rights Reserved.</p>
+								<p class="footer-copyright"> &#169; <?=date('Y')?>  Foodot Inc. All Rights Reserved.</p>
 								<p>
 								    <!------------------------------- Navigation starts ------------------------>
 								    																		<a href="https://foodot.com/contact" target="_self"> Contact</a><a href="https://foodot.com/privacy-notice" target="_self"> Privacy Notice</a><a href="https://foodot.com/terms-of-use" target="_self"> Terms of Use</a><a href="https://cjamerica.com/catsca/" target="_blank"> California Transparency in Supply Chains Act</a><a href="https://foodot.com/accessibility-statement" target="_self"> Accessibility statement</a>								    								    <!------------------------------- Navigation ends ------------------------>
 								</p>
-								<p style="font-size: 10px;"><a href="http://www.inkrefuge.com/" target="_blank">Website by Ink Refuge</a></p>
 							</div>
 						</div> 
 					</div>

@@ -139,31 +139,43 @@
                     <li>
                         <a href="https://foodot.com/contact" class="page-scroll">Contact</a>
                     </li>-->
-                     				            				                <li class="page-scroll"><a href="https://foodot.com/#about-section">About us</a></li>
-				            				        				            				                <li class="menu-dropdown-icon">
-				                            <a href="https://foodot.com/our-brands">Brands</a>
-				                        <ul>
-                                                            <li class="full-width">
-                                                               <ul>
-                                                                                                                                        <li>                                                                      <a target="_self" class="page-scroll"  href="https://foodot.com/our-brands/bibigo-1">
-                                                                             Bibigo                                                                      </a>
-                                                                      </li>
-                                                                    
-                                                                                                                                        <li>                                                                      <a target="_self" class="page-scroll"  href="https://foodot.com/our-brands/annie-chuns">
-                                                                             Annie Chun's                                                                      </a>
-                                                                      </li>
-                                                                    
-                                                                                                                                        <li>                                                                      <a target="_self" class="page-scroll"  href="https://foodot.com/our-brands/cj-cheiljedang-1">
-                                                                             CJ Cheiljedang                                                                      </a>
-                                                                      </li>
-                                                                    
-                                                                                                                                 </ul>
-                                                              </li>                                                                                                                                                        
-                                                        </ul>
-				                </li>
-				            				        				            				                <li class="page-scroll"><a href="https://foodot.com/careers">Careers</a></li>
-				            				        				            				                <li class="page-scroll"><a href="https://foodot.com/contact">Contact</a></li>
-				            				                        </ul>
+                    
+                    <li class="page-scroll"><a href="/#about-section">About us</a></li>
+                    <li class="page-scroll"><a href="/#mission-section">Mission</a></li>
+                    <li class="menu-dropdown-icon">
+                        <a href="/products.php">Products</a>
+                        <ul>
+                            <li class="full-width">
+                                <ul>
+                                    <li>
+                                        <a target="_self" class="page-scroll"  href="/products-nature.php">
+                                            Nature                                                                      
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a target="_self" class="page-scroll"  href="/products-health.php">
+                                            Health                                                                     
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a target="_self" class="page-scroll"  href="/products-uniqueness.php">
+                                            Uniqueness                                                                    
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a target="_self" class="page-scroll"  href="/products-innovativeness.php">
+                                            Innovativeness
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>                                                                                                                                                        
+                        </ul>
+                    </li>
+                    <li class="page-scroll"><a href="/#safety">Saftey</a></li>
+                    <li class="page-scroll"><a href="/contact.php">Contact</a></li>
+                </ul>
             </div>
         </div>
     </nav>
