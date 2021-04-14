@@ -22,33 +22,40 @@ require("header.php");
    <div class="our-brands-frame">
       <div class="back-dark ptb-50">
 	 <div class="container page-title">
-	    <h1> Our Brands</h1>
+	    <h1> Our Products</h1>
 	    <p>
-	     Inspiring a New Life of Health, Happiness and Convenience	    </p>
+	     Inspiring a New Life of Nature, Health, Uniqueness and Innovativeness	    </p>
 	 </div>
       </div>
       <div class="back-dark pb-70">
 	 <div style="clear: both"></div>
 	 <div id="projects-grid ptb-30">
-	    	    	    <a href="https://foodot.com/our-brands/bibigo-1">
-	       <div class="portfolio-box-1 photo">
-               <img src="https://foodot.com/assets/media/portfolio/pdf/bibigo-logo-white.png" alt=" " class="brand-white-logo">
-              <div class="mask"></div>
-              <img src="https://foodot.com/assets/media/portfolio/bibi-cta-img.jpg" alt=" ">   
+		<a href="/products-nature.php">
+			<div class="portfolio-box-1 photo">
+            	<img src="/assets/img/nature-logo-white.png" alt=" " class="brand-white-logo">
+              	<div class="mask"></div>\
+              	<img src="/assets/img/products_nature.jpg" alt=" ">   
 	       </div>
 	    </a>   
-	    	    <a href="https://foodot.com/our-brands/annie-chuns">
+		<a href="/products-health.php">
 	       <div class="portfolio-box-1 photo">
-               <img src="https://foodot.com/assets/media/portfolio/pdf/anniechuns-logo-white.png" alt=" " class="brand-white-logo">
-              <div class="mask"></div>
-              <img src="https://foodot.com/assets/media/portfolio/annie-cta-1.jpg" alt=" ">   
+            	<img src="/assets/img/health-logo-white.png" alt=" " class="brand-white-logo">
+            	<div class="mask"></div>
+              	<img src="/assets/img/products-health.jpg" alt=" ">   
 	       </div>
 	    </a>   
-	    	    <a href="https://foodot.com/our-brands/cj-cheiljedang-1">
+		<a href="/products-uniqueness.php">
 	       <div class="portfolio-box-1 photo">
-               <img src="https://foodot.com/assets/media/portfolio/pdf/cheiljedang-logo-white.png" alt=" " class="brand-white-logo">
-              <div class="mask"></div>
-              <img src="https://foodot.com/assets/media/portfolio/cheil-img-cta.jpg" alt=" ">   
+               <img src="/assets/img/uniqueness-logo-white.png" alt=" " class="brand-white-logo">
+            	<div class="mask"></div>
+            	<img src="/assets/img/products-uniqueness.jpg" alt=" ">   
+	       </div>
+	    </a>   
+		<a href="/products-innovativeness.php">
+	       <div class="portfolio-box-1 photo">
+               <img src="/assets/img/innovativeness-logo-white.png" alt=" " class="brand-white-logo">
+            	<div class="mask"></div>
+            	<img src="/assets/img/products-innovativeness.jpg" alt=" ">   
 	       </div>
 	    </a>   
 	    	    	    <div style="clear: both"></div>

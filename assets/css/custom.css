@@ -238,7 +238,7 @@ select.form-control:not([size]):not([multiple])
         font-size: 45px;
         line-height: 42px;
         font-weight: normal;
-        font-family: 'MuseoSans900', sans-serif;
+        font-family: sans-serif;
       text-transform: uppercase;
       margin-bottom: 15px;
     }
