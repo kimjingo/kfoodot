@@ -23,7 +23,7 @@
 								<h2>Contact Info</h2>
 									
 								<div  class="address" itemscope itemtype="http://schema.org/LocalBusiness">
-									<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" onclick="window.open('https://maps.google.com/?cid=14622539413831140134')" style="cursor:pointer">
+									<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" onclick="window.open('https://goo.gl/maps/jTR43Xkdqv5kdoTYA')" style="cursor:pointer">
 										<span itemprop="streetAddress">22912 LOCKNESS AVE.</span>,
 										<span itemprop="addressLocality">TORRANCE</span>,
 										<span itemprop="addressRegion">CA</span>
@@ -39,11 +39,11 @@
 								<p class="footer-copyright"> &#169; <?=date('Y')?>  Foodot Inc. All Rights Reserved.</p>
 								<p>
 								    <!------------------------------- Navigation starts ------------------------>
-                                    <a href="/contact" target="_self"> Contact</a>
-                                    <a href="/privacy-notice" target="_self"> Privacy Notice</a>
-                                    <a href="/terms-of-use" target="_self"> Terms of Use</a>
-                                    <a href="/catsca/" target="_blank"> California Transparency in Supply Chains Act</a>
-                                    <a href="/accessibility-statement" target="_self"> Accessibility statement</a>								    								    <!------------------------------- Navigation ends ------------------------>
+                                    <a href="/contact.php" target="_self"> Contact</a>
+                                    <a href="/privacy-notice.php" target="_self"> Privacy Notice</a>
+                                    <a href="/terms-of-use.php" target="_self"> Terms of Use</a>
+                                    <a href="/catsca.php" target="_blank"> California Transparency in Supply Chains Act</a>
+                                    <a href="/accessibility-statement.php" target="_self"> Accessibility statement</a>								    								    <!------------------------------- Navigation ends ------------------------>
 								</p>
 							</div>
 						</div> 
@@ -170,16 +170,17 @@
     }
 </style>
 
-<script>
-      var $lng = '-118.029396';
-      var $lat = '33.859291';
-      var iconUrl = 'http://cp1.inkrefuge.com/admin/asset/uploads/125/locations/map-ping-1.png';
-      var $link = 'https://maps.google.com/?cid=14622539413831140134';
-   </script>
+    <script>
+        var $lng = '-118.30460';
+        var $lat = '33.81706';
+        var iconUrl = 'http://cp1.inkrefuge.com/admin/asset/uploads/125/locations/map-ping-1.png';
+        var $link = 'https://goo.gl/maps/KJDYKTqZZmUDvAn96";';
+        //   var $link = 'https://maps.google.com/?cid=14622539413831140134';
+    </script>
    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5_cVj2I86wwd8YkcTcpL9bs7lg9qtKPc"></script>
    <script type="text/javascript">
 	// When the window has finished loading create our google map below
-	google.maps.event.addDomListener(window, 'load', init);
+	// google.maps.event.addDomListener(window, 'load', init);
 
 	function init() {
 		// Basic options for a simple Google Map
