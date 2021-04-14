@@ -34,7 +34,7 @@ require("header.php");
 			<div class="portfolio-box-1 photo">
             	<img src="/assets/img/nature-logo-white.png" alt=" " class="brand-white-logo">
               	<div class="mask"></div>\
-              	<img src="/assets/img/products_nature.jpg" alt=" ">   
+              	<img src="/assets/img/products-nature.jpg" alt=" ">   
 	       </div>
 	    </a>   
 		<a href="/products-health.php">
