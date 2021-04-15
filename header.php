@@ -150,24 +150,24 @@
                                 <ul>
                                     <li>
                                         <a target="_self" class="page-scroll"  href="/products-nature.php">
-                                            Nature                                                                      
+                                            Natural                                                                     
                                         </a>
                                     </li>
 
                                     <li>
                                         <a target="_self" class="page-scroll"  href="/products-health.php">
-                                            Health                                                                     
+                                            Healthy                                                                    
                                         </a>
                                     </li>
 
                                     <li>
                                         <a target="_self" class="page-scroll"  href="/products-uniqueness.php">
-                                            Uniqueness                                                                   
+                                            Unique                                                                
                                         </a>
                                     </li>
                                     <li>
                                         <a target="_self" class="page-scroll"  href="/products-innovativeness.php">
-                                            Innovativeness
+                                            Innovative
                                         </a>
                                     </li>
                                 </ul>

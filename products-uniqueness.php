@@ -27,7 +27,7 @@ require("header.php");
    <div class="our-brands-frame our-brands-details-frame">
       <div class="back-dark ptb-50">
 	 <div class="container page-title">
-	    <h1>Uniqueness</h1>
+	    <h1>Unique</h1>
 	    <p>
 	     Supporting Healthy and Convenient Lifestyles	    </p>
 	 </div>

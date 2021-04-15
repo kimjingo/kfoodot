@@ -27,7 +27,7 @@ require("header.php");
    <div class="our-brands-frame our-brands-details-frame">
       <div class="back-dark ptb-50">
 	 <div class="container page-title">
-	    <h1>Nature</h1>
+	    <h1>Natural</h1>
 	    <p>
 	     Food You Can Feel Good About	    </p>
 	 </div>

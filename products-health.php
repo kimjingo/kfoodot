@@ -26,7 +26,7 @@ require("header.php");
    <div class="our-brands-frame our-brands-details-frame">
       <div class="back-dark ptb-50">
 	 <div class="container page-title">
-	    <h1>Health</h1>
+	    <h1>Healthy</h1>
 	    <p>
 	     Sharing Korean Flavor	    </p>
 	 </div>
