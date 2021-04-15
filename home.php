@@ -142,8 +142,9 @@ providing the best value with our OnlyOne products and services                 
         <div class="container">
             <h3>OUR MISSION</h3>
             <h4>Inspiring a new taste of nature, health, uniqueness and innovativeness.</h4>
+            <br>
             <div style="text-align:center;">
-                <img src="/assets/img/mission.jpg" alt="720x200,mission.jpg" width="720px" height="200px">
+                <img src="/assets/img/mission.jpg" alt="720x200,mission.jpg">
             </div>
             <div class="map-img">
                 <img src="https://foodot.com/assets/media/on_page_element/foodot-map-img.jpg" alt="" title="">
