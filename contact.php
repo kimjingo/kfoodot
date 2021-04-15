@@ -95,7 +95,7 @@ require("header.php");
 		}
    </style>
    <!---------- MAP ---------->
-   <div class="section">
+   <div class="section" style="margin">
       <div id="map center">
 		  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3314.824916392682!2d-118.3050278459485!3d33.81683106000662!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd4a9cad596d31%3A0xa3dd90143ee548af!2s22912%20Lockness%20Ave%2C%20Torrance%2C%20CA%2090501!5e0!3m2!1sen!2sus!4v1618360102942!5m2!1sen!2sus" style="border:0;width:100%; height:600px;" allowfullscreen="" loading="lazy"></iframe>
 	  </div>

@@ -34,15 +34,16 @@
     <link rel="stylesheet" href="/assets/css/jsor-slider.css" />
     
     <link rel="stylesheet" href="/assets/css/custom.css" />
-        
+    
     <!----------------------------------- Stylesheet ends------------------->
-     
+    
     <!-- Favicons==================================================-->
-<!--    <link rel="shortcut icon" href="favicon.png">-->
+    <!--    <link rel="shortcut icon" href="favicon.png">-->
     <script type="text/javascript" src="/assets/js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="/assets/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="/assets/js/jquery-2.1.1.js"></script>
     <script type="text/javascript" src="/assets/js/modernizr.custom.js"></script>   
+    <script src="https://use.fontawesome.com/046f477665.js"></script>
     
     <!--<script type="text/javascript" src="/assets/js/royal_preloader.min.js"></script>
     <script type="text/javascript" src="/assets/js/plugins.js"></script>

@@ -171,13 +171,13 @@
 </style>
 
     <script>
-        var $lng = '-118.30460';
-        var $lat = '33.81706';
-        var iconUrl = 'http://cp1.inkrefuge.com/admin/asset/uploads/125/locations/map-ping-1.png';
-        var $link = 'https://goo.gl/maps/KJDYKTqZZmUDvAn96";';
+        // var $lng = '-118.30460';
+        // var $lat = '33.81706';
+        // var iconUrl = 'http://cp1.inkrefuge.com/admin/asset/uploads/125/locations/map-ping-1.png';
+        // var $link = 'https://goo.gl/maps/KJDYKTqZZmUDvAn96";';
         //   var $link = 'https://maps.google.com/?cid=14622539413831140134';
     </script>
-   <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5_cVj2I86wwd8YkcTcpL9bs7lg9qtKPc"></script>
+   <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5_cVj2I86wwd8YkcTcpL9bs7lg9qtKPc"></script> -->
    <script type="text/javascript">
 	// When the window has finished loading create our google map below
 	// google.maps.event.addDomListener(window, 'load', init);

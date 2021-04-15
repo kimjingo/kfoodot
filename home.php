@@ -141,11 +141,10 @@ providing the best value with our OnlyOne products and services                 
     <div class="back-lightgray ptb-50">
         <div class="container">
             <h3>OUR MISSION</h3>
-            <p>Inspiring a new taste of nature, health, uniqueness and innovativeness.</p> 
-            <p>Health: Yuza</p>
-            <p>Nature: Abalone, Goguma</p>
-            <p>Uniqueness: Crispy Squid</p>
-            <p>Innovativeness: Seaweed Croutons, Gochujang</p>
+            <h4>Inspiring a new taste of nature, health, uniqueness and innovativeness.</h4>
+            <div style="text-align:center;">
+                <img src="/assets/img/mission.jpg" alt="720x200,mission.jpg" width="720px" height="200px">
+            </div>
             <div class="map-img">
                 <img src="https://foodot.com/assets/media/on_page_element/foodot-map-img.jpg" alt="" title="">
             </div>
@@ -160,7 +159,7 @@ providing the best value with our OnlyOne products and services                 
         <div class="container">
             <h3>Safety : 3rd Party Food Safety Audit</h3>
            <p>We manufacture under GFSI standard. (FSSC 22000 , BRC) </p>            
-           <a href="#" class="btn btn-default btn-red" target="_blank"> Visit Website <strong class="fa fa-caret-right" aria-hidden="true"></strong></a>
+           <a href="#" class="btn btn-default btn-red" target="_blank"> Visit Website <i class="fa fa-caret-right" aria-hidden="true" ></i></a>
         </div>
     </div>
     <div class="down-arrow down-arrow-green"></div>
