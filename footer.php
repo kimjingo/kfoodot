@@ -30,6 +30,9 @@
 										<span itemprop="postalCode">90501</span> 
 									       
 									</div>
+                                    <div>
+                                        email : <a href="mailto:webmaster@kfoodot.com">info@kfoodot.com</a>
+                                    </div>
 								</div>
 							       
 <?php
