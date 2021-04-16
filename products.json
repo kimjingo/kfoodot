@@ -1,0 +1,114 @@
+{
+    "natural":[
+        {
+            "title":"Dried Sweet Potato",
+            "bullets":[
+                "100% Natural Sweet Potato Snacks from South Korea",
+                "Vegan, GMO Free, Gluten Free Snack for Diets with No Preservatives No Sugar Added"
+            ],
+            "descriptions":[
+                "DRIED SWEET POTATO - 100% real sweet potato! All natural ingredients. This is PERFECT snack to soothe your hunger with a low calorie and low carb. Don't starve!",
+                "PURE AND NATURAL SWEET - Each strip of sweet potato is only enriched by natural sugars and starches. No artificial additives or flavors used. ",
+                "FUN WAYS TO ENJOY - Try toasting in the oven to enhance the sweetness and crispy texture. Chop it and top it on your salad, ice cream and more!",
+                "ON-THE-GO SNACK - Compact bag means you can carry it anywhere. Enjoy the sweet potato snack on the go for quick afternoon snack or on a brisk walk through the park.",
+                "FAMILY SNACK - Every family member likes our sweet potato snack in common!"
+            ],
+            "id":"dsp"
+            
+        },
+        {
+            "title":"",
+            "bullets":[
+                "",
+                ""
+            ],
+            "descriptions":[
+                "",
+                ""
+            ],
+            "id":""
+
+        },
+        {
+            "title":"Braised Abalone",
+            "bullets":[
+                "Premium Abalone in Brine Naturally Raised in Korean Sea",
+                "Ready to Eat"
+            ],
+            "descriptions":[
+                "DIAMOND FROM THE SEA - In Eastern Culture, Abalone dish has been served as a favorite dish of many Kings. Of the highest quality of seafood, this abalone is raised in clean and pristine environments where it grazes on the finest kelps and seaweed for a pure taste of the sea.",
+                "SUPERFOODS FROM THE SEA - It is generally a good source of nutrition. Its nickname is a wild ginseng grown under the sea.",
+                "EASY TO PREPARE - Despite the rich and delicate taste of abalone, any home cook can easily cook and include it in any dish.",
+                "SERVE IN MANY WAYS - Abalone can be enjoyed in many different ways. Use it as a rich inclusion to soups and porridges. Add it into a seafood spicy stir-fry. Or simply enjoy it served plainly grilled.",
+                "ONLY THE BEST FROM Korea - While the luxurious abalone can be found around the world, the undisputed best shellfish come from the Wando Sea where they feed on quality seaweed and kelp."
+            ],
+            "id":"bra"
+        }
+    ],
+    "healthy":[
+        {
+            "title":"Organic Yuza Juice ",
+            "bullets":[
+                "USDA Organic Yuza Citron Juice.  ",
+                "Yuza is a citrus fruit that is mainly cultivated in Korea and it is incredibly fragrant.",
+                "Enjoy it chilled on a summer day, or as a hot tea to warm up in winter. "
+            ],
+            "descriptions":[
+                "EASY DRINK POUCH - The easy tear pouch makes it a no hassle drink while on a long trip or for a quick refresher in the middle of a busy work day.",
+                "ENJOY IT IN VARIOUS WAY - Try it in other ways! It is delicious as a topping for yogurt and deserts. Or with scones, on toast, or even in a smoothie."
+            ],
+            "id":"oyj"
+        }
+    ],
+    "unique":[
+        {
+            "title":"Fried Seafood Snacks",
+            "bullets":[
+                "SNACKING ON THE GO - Fuel your active lifestyle with this portable pack of premium seafood snacks! Makes a great work or school snack for your kids",
+                "GREAT FINGER FOOD - Great pairing with beer, wine and any of your favorite drinks",
+                "Crunch, Crispy Snacks and Low Calorie Finger Food"
+            ],
+            "descriptions":[
+                "Various flavors are available : Crispy Squid, Fish and Chips, Fried Seaweed",
+                "Crispy Squid : Calamari Chips Made with Real Squid",
+                "Fish and Chips : Made with Real Fish",
+                "Fried Seaweed : Crispy Seaweed Snacks Made in Korea"
+            ],
+            "id":"fss"
+
+        }
+    ],
+    "innovative":[
+        {
+            "title":"Gochujang",
+            "bullets":[
+                "Fermented Spicy Gochujang Seasoning Sauce",
+                "Sweet Fermented Chili Pepper Paste, Perfect Spicy Sauce and Condiment for Dips and Marinades"
+            ],
+            "descriptions":[
+                "SPICY AND SWEET - Our spicy gochujang sauce provides a naturally sweet and spicy bite to any meal",
+                "FERMENTED PERFECTION - Each container of gochujang paste is aged and fermented ",
+                "PAIRS WITH POPULAR DISHES - Gochujang is a must-have sauce with many favorite Korean dishes. Its spicy tones pair perfectly with grilled brisket and bulgolgi",
+                "TRADITIONAL SEASONING - The concentrated rich flavor of this korean sauce is a perfect addition to enhance any homemade bibimbaps or rice bowls"
+            ],
+            "id":"gcj"
+
+        },
+        {
+            "title":"Seaweed Croutons",
+            "bullets":[
+                "Gluten Free, GMO Free Toppers for Soups and Salads",
+                "CREATIVE CROUTONS - Use seaweed to add extra crunch and more flavor to your salads and soups",
+                "VERSATILE USE - Every family member likes our seaweed croutons in common! Enjoy each flavored seaweed crisp as a standalone snack or as an unexpected topping for a meal. Try each flavor with a variety of dishes",
+                "PURE SEA SALT - Each perfectly roasted strip of seaweed has been tossed with sea salt to enhance the pure and natural taste of crisp seaweed",
+                "Add our delicious Seaweed croutons to your salads, soups or pasta for a crispy, crunchy touch and a great new taste!"
+            ],
+            "descriptions":[
+                "3 flavors are avaiable : Sea salt(Vegan), BBQ(Vegan), Sweet Butter"
+            ],
+            "id":"scs"
+
+        }
+    ]
+
+}

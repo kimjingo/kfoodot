@@ -158,9 +158,7 @@ providing the best value with our OnlyOne products and services                 
  <div id="safety">
     <div class="back-green ptb-50">
         <div class="container">
-            <h3>Safety : 3rd Party Food Safety Audit</h3>
-           <p>We manufacture under GFSI standard. (FSSC 22000 , BRC) </p>            
-           <a href="#" class="btn btn-default btn-red" target="_blank"> Visit Website <i class="fa fa-caret-right" aria-hidden="true" ></i></a>
+            <h3>Safety : We manufacture under GFSI standard. (FSSC 22000 , BRC) </h3>
         </div>
     </div>
     <div class="down-arrow down-arrow-green"></div>

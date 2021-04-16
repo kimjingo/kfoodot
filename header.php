@@ -149,24 +149,24 @@
                             <li class="full-width">
                                 <ul>
                                     <li>
-                                        <a target="_self" class="page-scroll"  href="/products-nature.php">
+                                        <a target="_self" class="page-scroll"  href="/products-natural.php">
                                             Natural                                                                     
                                         </a>
                                     </li>
 
                                     <li>
-                                        <a target="_self" class="page-scroll"  href="/products-health.php">
+                                        <a target="_self" class="page-scroll"  href="/products-healthy.php">
                                             Healthy                                                                    
                                         </a>
                                     </li>
 
                                     <li>
-                                        <a target="_self" class="page-scroll"  href="/products-uniqueness.php">
+                                        <a target="_self" class="page-scroll"  href="/products-unique.php">
                                             Unique                                                                
                                         </a>
                                     </li>
                                     <li>
-                                        <a target="_self" class="page-scroll"  href="/products-innovativeness.php">
+                                        <a target="_self" class="page-scroll"  href="/products-innovative.php">
                                             Innovative
                                         </a>
                                     </li>

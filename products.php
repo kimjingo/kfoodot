@@ -30,28 +30,28 @@ require("header.php");
       <div class="back-dark pb-70">
 	 <div style="clear: both"></div>
 	 <div id="projects-grid ptb-30">
-		<a href="/products-nature.php">
+		<a href="/products-natural.php">
 			<div class="portfolio-box-1 photo">
             	<img src="/assets/img/nature-logo-white.png" alt=" " class="brand-white-logo">
               	<div class="mask"></div>\
               	<img src="/assets/img/products-nature.jpg" alt=" ">   
 	       </div>
 	    </a>   
-		<a href="/products-health.php">
+		<a href="/products-healthy.php">
 	       <div class="portfolio-box-1 photo">
             	<img src="/assets/img/health-logo-white.png" alt=" " class="brand-white-logo">
             	<div class="mask"></div>
               	<img src="/assets/img/products-health.jpg" alt=" ">   
 	       </div>
 	    </a>   
-		<a href="/products-uniqueness.php">
+		<a href="/products-unique.php">
 	       <div class="portfolio-box-1 photo">
                <img src="/assets/img/uniqueness-logo-white.png" alt=" " class="brand-white-logo">
             	<div class="mask"></div>
             	<img src="/assets/img/products-uniqueness.jpg" alt=" ">   
 	       </div>
 	    </a>   
-		<a href="/products-innovativeness.php">
+		<a href="/products-innovative.php">
 	       <div class="portfolio-box-1 photo">
                <img src="/assets/img/innovativeness-logo-white.png" alt=" " class="brand-white-logo">
             	<div class="mask"></div>
