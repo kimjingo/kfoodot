@@ -110,31 +110,35 @@ require("header.php");
    </style>
         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script>
+		
 		function onSubmit() {
+			console.log("aa");
 		    return new Promise(function(resolve, reject) {
-		    var action = jQuery('#contact-us-form').attr('action');
-	            var $formData = jQuery('#contact-us-form').serialize();
-	            jQuery('.form-response').remove();
-	            jQuery.ajax({
-	                url: action,
-	                dataType: "json",
-	                type: "POST",
-	                data: $formData,
-	                success: function(response) {
-	                    if (response.status_msg['class']=="success") {
-	                        jQuery('#contact-us-form input').val('');
-	                        resolve();
-	                        window.location.href = site_url+'contact/thank-you';
-	                    }else{
-	                        jQuery('#contact-us-form').append('<div class="form-response text-center status alert alert-danger contact-status '+response.status_msg['class']+'">'+response.status_msg['msg']+'</div>');
-	                        grecaptcha.reset();
-	                    }
-	                },
-	                error: function() {
-	                	grecaptcha.reset();
-	                }
-	            });
-            });
+				var action = jQuery('#contact-us-form').attr('action');
+					var $formData = jQuery('#contact-us-form').serialize();
+					jQuery('.form-response').remove();
+					jQuery.ajax({
+						url: action,
+						dataType: "json",
+						type: "POST",
+						data: $formData,
+						success: function(response) {
+							console.log(response);
+							return;
+							if (response.status_msg['class']=="success") {
+								jQuery('#contact-us-form input').val('');
+								resolve();
+								window.location.href = site_url+'contact/thank-you';
+							}else{
+								jQuery('#contact-us-form').append('<div class="form-response text-center status alert alert-danger contact-status '+response.status_msg['class']+'">'+response.status_msg['msg']+'</div>');
+								grecaptcha.reset();
+							}
+						},
+						error: function() {
+							grecaptcha.reset();
+						}
+					});
+				});
 		}
 		
 		</script>
