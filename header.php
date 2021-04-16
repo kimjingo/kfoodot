@@ -26,12 +26,13 @@
     <link rel="stylesheet" href="/assets/css/color.css" />
     <link rel="stylesheet" href="/assets/css/font-awesome.css" />
     <link rel="stylesheet" href="/assets/css/et-line.css" />
-    <link rel="stylesheet" href="/assets/css/ionicons.min.css" />
     <link rel="stylesheet" href="/assets/css/jquery.fancybox.css" />
     <link rel="stylesheet" href="/assets/css/owl.carousel.css" />
     <link rel="stylesheet" href="/assets/css/owl.transitions.css" />
     <link rel="stylesheet" href="/assets/css/retina.css" />
     <link rel="stylesheet" href="/assets/css/jsor-slider.css" />
+    <!-- <link rel="stylesheet" href="/assets/css/ionicons.min.css" /> -->
+    <link href="/assets/css/ionicons.css" rel="stylesheet" type="text/css" />
     
     <link rel="stylesheet" href="/assets/css/custom.css" />
     
