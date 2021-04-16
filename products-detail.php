@@ -42,7 +42,7 @@
     <?php 
         $product_images = array();
         foreach (glob("assets/img/".$product->id."*.jpg") as $filename) { 
-            if($filename != "assets/img/".$product->id."*.jpg") $product_images[] = $filename;
+            if($filename != "assets/img/".$product->id."-00.jpg") $product_images[] = $filename;
         }    
     ?>
     <div class="back-white pb-30">
