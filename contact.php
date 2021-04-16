@@ -82,6 +82,10 @@ require("header.php");
 		    <!-- <button type="submit"  class="g-recaptcha btn btn-default btn-red" data-sitekey="6LeJYrkZAAAAAM7W6KXCCQX9V9W8G2XEEtgp--fo" data-callback="onSubmit">Submit<strong class="fa fa-caret-right" aria-hidden="true"></strong></button> -->
 		  </div>
 	       </div>
+		   <?php if(!empty($messsage)) : ?>
+		   	<div class="form-response text-center status alert alert-danger contact-status <?=$class?>"><?=$message?></div>');
+			<?php endif ; ?>
+
 	    </form>
 	 </div>
       </div>

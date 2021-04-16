@@ -87,7 +87,7 @@ providing the best value with our OnlyOne products and services                 
         <!--<span data-u="arrowleft" class="jssora22l" style="top:0px;left:8px;width:40px;height:58px;" data-autocenter="2"></span>
                 <span data-u="arrowright" class="jssora22r" style="top:0px;right:8px;width:40px;height:58px;" data-autocenter="2"></span>-->
     </div>
-    <div class="down-scroll-arrow"><a href="#about-section"><img src="/assets/img/down-arrow.png" alt="down-scroll-arrow" title="down scroll arrow"/></a></div>
+    <!-- <div class="down-scroll-arrow"><a href="#about-section"><img src="/assets/img/down-arrow.png" alt="down-scroll-arrow" title="down scroll arrow"/></a></div> -->
 </div>
 <!----------------------Section -1---------------->
 
@@ -130,10 +130,10 @@ providing the best value with our OnlyOne products and services                 
             </div>
         </div>
     </div>
+    <div class="down-arrow down-arrow-dark"></div>
     <div>
         <img src="assets/img/about-00.jpg" alt="about us" style="width:100%;">
     </div>
-    <div class="down-arrow down-arrow-dark"></div>
 </div>
  <!---------- ABOUT US END-------------------->
 
@@ -150,10 +150,10 @@ providing the best value with our OnlyOne products and services                 
             </div> -->
         </div>
     </div>
-            <div class="back-lightgray ptb-20">
-                <img src="/assets/img/mission.png" alt="our mission" style="width:100%;">
-            </div>
-    <div class="down-arrow down-arrow-lightgray"></div>
+    <div class="down-arrow down-arrow-dark"></div>
+    <div class="back-lightgray ptb-20">
+        <img src="/assets/img/mission.png" alt="our mission" style="width:100%;">
+    </div>
 </div>
  <!------------ MISSION END---------------->
 <!--------------- SAFETY ---------------->
@@ -164,17 +164,9 @@ providing the best value with our OnlyOne products and services                 
             <h4>
                 We manufacture under GFSI standard. (FSSC 22000 , BRC)
             </h4>
-            <!-- <img width="300" height="213" src="https://o6sjjr51c02w1nyw2yk6jvmw-wpengine.netdna-ssl.com/wp-content/uploads/2019/09/BRCGS_Logo_web-300x213.jpg" class="lazyloaded" data-ll-status="loaded">
-            <img width="300" height="117" src="https://o6sjjr51c02w1nyw2yk6jvmw-wpengine.netdna-ssl.com/wp-content/uploads/2014/06/fssc-22000-logo-300x117.jpg" class="lazyloaded" data-ll-status="loaded">
-            <img width="300" height="98" src="https://o6sjjr51c02w1nyw2yk6jvmw-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/sqf_logo-300x98.jpg" class="lazyloaded" data-ll-status="loaded">
-            <img src="https://img.profoodworld.com/files/base/pmmi/all/image/2020/02/GFSI_logo_3.5e56abd742a81.png?auto=format%2Ccompress&q=70&w=250"> -->
-
-            <?php
-        //    <a href="#" class="btn btn-default btn-red" target="_blank"> Visit Website <i class="fa fa-caret-right" aria-hidden="true" ></i></a>
-        //    https://o6sjjr51c02w1nyw2yk6jvmw-wpengine.netdna-ssl.com/wp-content/themes/consumer_goods_forum/assets/imgs/cgf-logo.svg?ver=1.3
-           ?>
         </div>
     </div>
+    <div class="down-arrow down-arrow-dark"></div>
     <div class="back-white ptb-50">
             <img src="assets/img/safe-01.jpg" alt="">
             <img src="assets/img/safe-02.jpg" alt="">

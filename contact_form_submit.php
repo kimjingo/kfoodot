@@ -1,10 +1,69 @@
 <?php
+require_once "config.php";
+$qry = "CREATE table IF NOT EXISTS `contacts` ( 
+    `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+    `first_name` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT '',
+    `last_name` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT '',
+    `email` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT '',
+    `division` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT '',
+    `subject` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+    `message` text COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+    `created_at` datetime NULL DEFAULT CURRENT_TIMESTAMP,
+    `updated_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    `ip_addr` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT '',
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ";
+if(!$con->query($qry)) echo "Error: " . $sql . $con->error;
+
+$first_name = $_POST['form']['first_name'];
+$last_name = $_POST['form']['last_name'];
+$email = $_POST['form']['email'];
+$division = $_POST['form']['division'];
+$subject = $_POST['form']['subject'];
+$message = $_POST['form']['message'];
+
+$ip_addr = $_SERVER['REMOTE_ADDR'] . (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])? ' from '.$_SERVER['HTTP_X_FORWARDED_FOR']:'');
+// $ip_addr = $_SERVER['REMOTE_ADDR'];
+// echo 'REMOTE_ADDR : '.$_SERVER['REMOTE_ADDR'] ;
+// echo '<pre>';
+// echo 'HTTP_X_FORWARDED_FOR : '.$_SERVER['HTTP_X_FORWARDED_FOR'] ;
+
+// echo '<pre>';
 // echo "Hello, Jingoo!";
 // echo '<pre>';
 // print_r($_POST);
 // echo '</pre>';
+
+
+$curr = time();
+$qry = "SELECT UNIX_TIMESTAMP(created_at) created_at, ip_addr FROM contacts ORDER BY id DESC LIMIT 1";
+if($QR = $con->query($qry)){
+    $QD = $QR->fetch_assoc();
+    if( ($QD['created_at'] > ($curr-50) ) && ($QD['ip_addr'] == $ip_addr) ){
+        $message = "Please try again later";
+        require('contact.php');
+        exit;
+    }
+} else {
+    echo "Error: " . $qry . $con->error;
+}
+
+$stmt = $con->prepare("INSERT INTO contacts(first_name, last_name, email, division, subject, message, ip_addr) VALUES (?, ?, ?, ?, ?, ?, ?)");
+$stmt->bind_param('sssssss', $first_name, $last_name, $email, $division, $subject, $message, $ip_addr);
+
+$stmt->execute();
+
+// printf("%d row inserted.\n", $stmt->affected_rows);
+
+/* Clean up table CountryLanguage */
+// $con->query("DELETE FROM CountryLanguage WHERE Language='Bavarian'");
+// printf("%d row deleted.\n", $con->affected_rows);
+
+
+
+/*
 // Multiple recipients
-$to = 'jingoo@kfoodot.com'; // note the comma
+$to = 'jingoo@kfoodot.com'; // deliminated by the comma
 
 // Subject
 $subject = 'Birthday Reminders for August';
@@ -47,9 +106,9 @@ $headers[] = 'From: Birthday Reminder <birthday@example.com>';
 mail($to, $subject, $message, implode("\r\n", $headers)) ;
 
 // $error_msg = '<div class="form-response text-center status alert alert-danger contact-status '+response.status_msg['class']+'">'+response.status_msg['msg']+'</div>')'';
-// require('thank-you.php');
 // header('thank-you.php')
 // header('Location: /thank-you.php');
 // exit;
-
+*/
+require('thank-you.php');
 ?>
