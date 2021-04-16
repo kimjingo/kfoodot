@@ -32,18 +32,21 @@
 									</div>
 								</div>
 							       
-                                                             
-								<p><span>Tel:</span>000-000-0000 <span>Fax:</span>111-111-1111</p>
+<?php
+								// <p><span>Tel:</span>000-000-0000 <span>Fax:</span>111-111-1111</p>
+                                ?>
 							   </div>
 						 							<div class="col-md-6 copy-right">
 								<p class="footer-copyright"> &#169; <?=date('Y')?>  Foodot Inc. All Rights Reserved.</p>
 								<p>
 								    <!------------------------------- Navigation starts ------------------------>
                                     <a href="/contact.php" target="_self"> Contact</a>
-                                    <a href="/privacy-notice.php" target="_self"> Privacy Notice</a>
-                                    <a href="/terms-of-use.php" target="_self"> Terms of Use</a>
-                                    <a href="/catsca.php" target="_blank"> California Transparency in Supply Chains Act</a>
-                                    <a href="/accessibility-statement.php" target="_self"> Accessibility statement</a>								    								    <!------------------------------- Navigation ends ------------------------>
+                                    <?php
+                                    // <a href="/privacy-notice.php" target="_self"> Privacy Notice</a>
+                                    // <a href="/terms-of-use.php" target="_self"> Terms of Use</a>
+                                    // <a href="/catsca.php" target="_blank"> California Transparency in Supply Chains Act</a>
+                                    // <a href="/accessibility-statement.php" target="_self"> Accessibility statement</a>								    								    <!------------------------------- Navigation ends ------------------------>
+                                    ?>
 								</p>
 							</div>
 						</div> 

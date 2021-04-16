@@ -45,13 +45,14 @@ require("header.php");
 			<select class="form-control" name="form[division]" value="" id="division" >
 			<option>Select</option>
 			<option value="Sales / Retail" >Sales / Retail</option>
-			<option value="Sales / Club" > Sales / Club</option>
-			<option value="Sales / Foodservice"  > Sales / Foodservice</option>
+			<option value="Sales / Club" >Sales / Club</option>
+			<option value="Sales / Foodservice"  >Sales / Foodservice</option>
 			<option value="Marketing"  >Marketing</option>
-		       <option value="Customer Service" >  Customer Service</option>
+		    <option value="Customer Service" >Customer Service</option>
+		    <option value="etc" >Etc.</option>
                        </select>
 			<!--<input type="text" class="form-control" id="division">-->
-		     </div>
+			</div>
 		  </div>
 	       </div>
 	       
@@ -77,8 +78,8 @@ require("header.php");
             
 	       <div class="row">
 		  <div class="col-md-12">
-		    <!-- <button type="submit" style="float: left;" class="btn btn-default btn-red">Submit <strong class="fa fa-caret-right" aria-hidden="true"></strong></button>-->
-		    <button type="submit"  class="g-recaptcha btn btn-default btn-red" data-sitekey="6LeJYrkZAAAAAM7W6KXCCQX9V9W8G2XEEtgp--fo" data-callback="onSubmit">Submit<strong class="fa fa-caret-right" aria-hidden="true"></strong></button>
+		    <button type="submit" style="float: left;" class="btn btn-default btn-red">Submit <strong class="fa fa-caret-right" aria-hidden="true"></strong></button>
+		    <!-- <button type="submit"  class="g-recaptcha btn btn-default btn-red" data-sitekey="6LeJYrkZAAAAAM7W6KXCCQX9V9W8G2XEEtgp--fo" data-callback="onSubmit">Submit<strong class="fa fa-caret-right" aria-hidden="true"></strong></button> -->
 		  </div>
 	       </div>
 	    </form>
@@ -108,7 +109,7 @@ require("header.php");
     text-align: center;
 }
    </style>
-        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
 <script>
 		
 		function onSubmit() {
@@ -128,7 +129,7 @@ require("header.php");
 							if (response.status_msg['class']=="success") {
 								jQuery('#contact-us-form input').val('');
 								resolve();
-								window.location.href = site_url+'contact/thank-you';
+								window.location.href = site_url+'thank-you.php';
 							}else{
 								jQuery('#contact-us-form').append('<div class="form-response text-center status alert alert-danger contact-status '+response.status_msg['class']+'">'+response.status_msg['msg']+'</div>');
 								grecaptcha.reset();

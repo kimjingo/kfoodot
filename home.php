@@ -125,10 +125,13 @@ providing the best value with our OnlyOne products and services                 
     <div class="back-dark ptb-50">
         <div class="container page-title">
             <h2>About Us</h2>
-            <p>
-                <p>To expand the taste of healthy & unique Korean food to the Americas, Foodot started its first U.S. food operations in Southern California.   We continuously strive to be innovative with the goal of providing healthy & unique products and services with a focus on Korean food. </p>
-            </p>
+            <div class="container">
+            <p>To expand the taste of healthy & unique Korean food to the Americas, Foodot started its first U.S. food operations in Southern California.   We continuously strive to be innovative with the goal of providing healthy & unique products and services with a focus on Korean food. </p>
+            </div>
         </div>
+    </div>
+    <div>
+        <img src="assets/img/about-00.jpg" alt="about us" style="width:100%;">
     </div>
     <div class="down-arrow down-arrow-dark"></div>
 </div>
@@ -138,139 +141,157 @@ providing the best value with our OnlyOne products and services                 
 
 <!---------- MISSION ------------------->
  <div class="about-frame" id="mission-section">
-    <div class="back-lightgray ptb-50">
+    <div class="back-dark ptb-50">
         <div class="container">
             <h3>OUR MISSION</h3>
             <h4>Inspiring a new taste of nature, health, uniqueness and innovativeness.</h4>
-            <br>
-            <div style="text-align:center;">
-                <img src="/assets/img/mission.jpg" alt="720x200,mission.jpg">
-            </div>
-            <div class="map-img">
+            <!-- <div class="map-img">
                 <img src="https://foodot.com/assets/media/on_page_element/foodot-map-img.jpg" alt="" title="">
-            </div>
+            </div> -->
         </div>
     </div>
+            <div class="back-lightgray ptb-20">
+                <img src="/assets/img/mission.png" alt="our mission" style="width:100%;">
+            </div>
     <div class="down-arrow down-arrow-lightgray"></div>
 </div>
  <!------------ MISSION END---------------->
 <!--------------- SAFETY ---------------->
  <div id="safety">
-    <div class="back-green ptb-50">
+    <div class="back-dark ptb-50">
         <div class="container">
-            <h3>Safety : We manufacture under GFSI standard. (FSSC 22000 , BRC) </h3>
+            <h3>Safety</h3>
+            <h4>
+                We manufacture under GFSI standard. (FSSC 22000 , BRC)
+            </h4>
+            <!-- <img width="300" height="213" src="https://o6sjjr51c02w1nyw2yk6jvmw-wpengine.netdna-ssl.com/wp-content/uploads/2019/09/BRCGS_Logo_web-300x213.jpg" class="lazyloaded" data-ll-status="loaded">
+            <img width="300" height="117" src="https://o6sjjr51c02w1nyw2yk6jvmw-wpengine.netdna-ssl.com/wp-content/uploads/2014/06/fssc-22000-logo-300x117.jpg" class="lazyloaded" data-ll-status="loaded">
+            <img width="300" height="98" src="https://o6sjjr51c02w1nyw2yk6jvmw-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/sqf_logo-300x98.jpg" class="lazyloaded" data-ll-status="loaded">
+            <img src="https://img.profoodworld.com/files/base/pmmi/all/image/2020/02/GFSI_logo_3.5e56abd742a81.png?auto=format%2Ccompress&q=70&w=250"> -->
+
+            <?php
+        //    <a href="#" class="btn btn-default btn-red" target="_blank"> Visit Website <i class="fa fa-caret-right" aria-hidden="true" ></i></a>
+        //    https://o6sjjr51c02w1nyw2yk6jvmw-wpengine.netdna-ssl.com/wp-content/themes/consumer_goods_forum/assets/imgs/cgf-logo.svg?ver=1.3
+           ?>
         </div>
     </div>
-    <div class="down-arrow down-arrow-green"></div>
-</div>
-
-<img src="/assets/img/homepage-img01.jpg" alt="Cuisine of Korea" title="Cuisine of Korea" style="width:100%;margin-bottom:-8px;">
-<div class="down-arrow down-arrow-dark"></div>
- <!---------- SAFETY END---------------->
-
-<!----------- VISION & MISSION ------------------>
- <div class="vision-frame">
-    <div class="back-green ptb-50">
-        <div class="container">
-            <h3>Mission &amp; Vision </h3>
-             <p>Foodot continuously strives to be innovative with the goal of providing products and services that achieve a high standard of excellence worldwide. Well-known for executing global strategies, Foodot now has presence in more than 40 countries. By globalizing Korean cuisine and spreading Korean culture, Foodot hopes to enrich lifestyles across the world.</p>             <ul class="vision-list">
-	<li>
-	<h4>Mission</h4>
-
-	<p>Contributing to the global community by providing the best value with our <span>OnlyOne</span> products and services</p>
-	</li>
-	<li>
-	<h4>Vision</h4>
-
-	<p>Global lifestyle company inspiring a new life of health, happiness, and convenience</p>
-	</li>
-	<li>
-	<h4>Core Values</h4>
-
-	<p><span>OnlyOne</span>, Talent, Shared Growth</p>
-	</li>
-</ul>        </div>
-    </div>
-    <div class="down-arrow down-arrow-green"></div>
-</div>
- <!------------ VISION & MISSION END -------------->
-
-<!---------- ETC GROUP ------------------->
-
-<div">
-    <div class="back-lightgray ptb-50">
-        <div class="container">
-            <h3>??? Group</h3>
-            <p>
-               
-               <p>Foodot is at the forefront of spreading K-Culture and influencing lifestyles all over the world. Foodot strives to deliver rewarding experiences worldwide through Korean movies, food, TV shows and music. With our core values &quot;ONLYONE&quot;, &quot;Talent&quot;, and &quot;Shared Growth&quot; at heart, we seek new creative avenues and advance the industrial ground, offering differentiated customer values. Foodot will continue to drive innovative lifestyles as a leading global lifestyle company and contribute to societies by providing the best value to our customers.</p>            </p>
-            <a href="http://english.cj.net/" class="btn btn-default btn-red" target="_blank"> Visit Website <strong class="fa fa-caret-right" aria-hidden="true"></strong></a>
-        </div>
-        <div class="container" style="width:100% !important; max-width:100% !important;">
-            <div class="cj-group-list">
-                <div class="row">
-                                                            <div class="col-sm-12">
-                        <div class="group-info" style="background-image: url(https://foodot.com/assets/media/cta/food---food-services.jpg);">
-                            <img src="https://foodot.com/assets/media/cta/food---food-services.jpg" alt="Food & Food services" title="Food & Food services">
-                            <div class="mask"></div>
-                            <div class="group-details">
-                                <h4>Food & Food services</h4>
-                               <p> No. 1 food company in Korea</p>
-                                <ul>
-                                    <li> <a href="http://www.cj.co.kr/cj-en/index" target="_blank">Cuisine of Korea</a></li>
-                                    <li><a href="https://www.cjfoodville.co.kr/eng/main.asp" target="_blank">Foodot Foodville</a></li>
-                                    <li><a href="http://www.cjfreshway.com/en/main/main.asp" target="_blank">Foodot Freshway</a></li>
-
-                                </ul>                            </div>
-                        </div>
-                    </div>
-                                        <div class="col-sm-12">
-                        <div class="group-info" style="background-image: url(https://foodot.com/assets/media/cta/bio---pharma.jpg);">
-                            <img src="https://foodot.com/assets/media/cta/bio---pharma.jpg" alt="Bio & Pharma" title="Bio & Pharma">
-                            <div class="mask"></div>
-                            <div class="group-details">
-                                <h4>Bio & Pharma</h4>
-                               <p> Biotechnology with Global Triple Crown</p>
-                                <ul>
-                                    <li><a href="http://www.cjbio.net/main.asp" target="_blank">Cuisine of Korea Bio</a></li>
-                                    <li><a href="http://www.cjp.co.kr/eng/index.asp" target="_blank">Foodot HealthCare</a></li>
-
-                                </ul>                            </div>
-                        </div>
-                    </div>
-                                        <div class="col-sm-12">
-                        <div class="group-info" style="background-image: url(https://foodot.com/assets/media/cta/entertainment---media.jpg);">
-                            <img src="https://foodot.com/assets/media/cta/entertainment---media.jpg" alt="Entertainment & Media" title="Entertainment & Media">
-                            <div class="mask"></div>
-                            <div class="group-details">
-                                <h4>Entertainment & Media</h4>
-                               <p>Center of Korean Culture</p>
-
-<ul>
-	<li><a href="http://cjenm.com/" target="_blank">Foodot E&amp;M</a></li>
-	<li><a href="http://www.cgvcinemas.com/" target="_blank">Foodot CGV</a></li>
-	<li><a href="http://www.cjpowercast.com/en" target="_blank">Foodot Powercast</a></li>
-</ul>                            </div>
-                        </div>
-                    </div>
-                                        <div class="col-sm-12">
-                        <div class="group-info" style="background-image: url(https://foodot.com/assets/media/cta/retain---logistics.jpg);">
-                            <img src="https://foodot.com/assets/media/cta/retain---logistics.jpg" alt="Retail & Logistics" title="Retail & Logistics">
-                            <div class="mask"></div>
-                            <div class="group-details">
-                                <h4>Retail & Logistics</h4>
-                               <p>World's #2 Home-Shopping Service, Korea's #1 Healthy & Beauty Store</p>
-                                <ul>
-                                    <li><a href="http://www.cjoshopping.com/eng/index.asp" target="_blank">Foodot O Shopping</a></li>
-                                    <li><a href="http://www.cjolivenetworks.co.kr/" target="_blank">Foodot OliveNetworks</a></li>
-                                    <li><a href="http://www.cjlogistics.com/web/en/index.asp" target="_blank">Foodot Logistics</a></li>
-
-                                </ul>                            </div>
-                        </div>
-                    </div>
-                                                        </div>
+    <div class="back-white ptb-50">
+            <img src="assets/img/safe-01.jpg" alt="">
+            <img src="assets/img/safe-02.jpg" alt="">
+            <img src="assets/img/safe-03.jpg" alt="">
+            <img src="assets/img/safe-04.jpg" alt="">
             </div>
-        </div>
-    </div>
+    <!-- <div class="down-arrow down-arrow-green"></div> -->
 </div>
-<!------------ Foodot GROUP ---------------->
+
+<!-- <img src="/assets/img/homepage-img01.jpg" alt="Cuisine of Korea" title="Cuisine of Korea" style="width:100%;margin-bottom:-8px;">
+<div class="down-arrow down-arrow-dark"></div> -->
+ <!---------- SAFETY END---------------->
+<?php
+// <!----------- VISION & MISSION ------------------>
+//  <div class="vision-frame">
+//     <div class="back-green ptb-50">
+//         <div class="container">
+//             <h3>Mission &amp; Vision </h3>
+//              <p>Foodot continuously strives to be innovative with the goal of providing products and services that achieve a high standard of excellence worldwide. Well-known for executing global strategies, Foodot now has presence in more than 40 countries. By globalizing Korean cuisine and spreading Korean culture, Foodot hopes to enrich lifestyles across the world.</p>             <ul class="vision-list">
+// 	<li>
+// 	<h4>Mission</h4>
+
+// 	<p>Contributing to the global community by providing the best value with our <span>OnlyOne</span> products and services</p>
+// 	</li>
+// 	<li>
+// 	<h4>Vision</h4>
+
+// 	<p>Global lifestyle company inspiring a new life of health, happiness, and convenience</p>
+// 	</li>
+// 	<li>
+// 	<h4>Core Values</h4>
+
+// 	<p><span>OnlyOne</span>, Talent, Shared Growth</p>
+// 	</li>
+// </ul>        </div>
+//     </div>
+//     <div class="down-arrow down-arrow-green"></div>
+// </div>
+//  <!------------ VISION & MISSION END -------------->
+
+// <!---------- ETC GROUP ------------------->
+
+// <div">
+//     <div class="back-lightgray ptb-50">
+//         <div class="container">
+//             <h3>??? Group</h3>
+//             <p>
+               
+//                <p>Foodot is at the forefront of spreading K-Culture and influencing lifestyles all over the world. Foodot strives to deliver rewarding experiences worldwide through Korean movies, food, TV shows and music. With our core values &quot;ONLYONE&quot;, &quot;Talent&quot;, and &quot;Shared Growth&quot; at heart, we seek new creative avenues and advance the industrial ground, offering differentiated customer values. Foodot will continue to drive innovative lifestyles as a leading global lifestyle company and contribute to societies by providing the best value to our customers.</p>            </p>
+//             <a href="http://english.cj.net/" class="btn btn-default btn-red" target="_blank"> Visit Website <strong class="fa fa-caret-right" aria-hidden="true"></strong></a>
+//         </div>
+//         <div class="container" style="width:100% !important; max-width:100% !important;">
+//             <div class="cj-group-list">
+//                 <div class="row">
+//                                                             <div class="col-sm-12">
+//                         <div class="group-info" style="background-image: url(https://foodot.com/assets/media/cta/food---food-services.jpg);">
+//                             <img src="https://foodot.com/assets/media/cta/food---food-services.jpg" alt="Food & Food services" title="Food & Food services">
+//                             <div class="mask"></div>
+//                             <div class="group-details">
+//                                 <h4>Food & Food services</h4>
+//                                <p> No. 1 food company in Korea</p>
+//                                 <ul>
+//                                     <li> <a href="http://www.cj.co.kr/cj-en/index" target="_blank">Cuisine of Korea</a></li>
+//                                     <li><a href="https://www.cjfoodville.co.kr/eng/main.asp" target="_blank">Foodot Foodville</a></li>
+//                                     <li><a href="http://www.cjfreshway.com/en/main/main.asp" target="_blank">Foodot Freshway</a></li>
+
+//                                 </ul>                            </div>
+//                         </div>
+//                     </div>
+//                                         <div class="col-sm-12">
+//                         <div class="group-info" style="background-image: url(https://foodot.com/assets/media/cta/bio---pharma.jpg);">
+//                             <img src="https://foodot.com/assets/media/cta/bio---pharma.jpg" alt="Bio & Pharma" title="Bio & Pharma">
+//                             <div class="mask"></div>
+//                             <div class="group-details">
+//                                 <h4>Bio & Pharma</h4>
+//                                <p> Biotechnology with Global Triple Crown</p>
+//                                 <ul>
+//                                     <li><a href="http://www.cjbio.net/main.asp" target="_blank">Cuisine of Korea Bio</a></li>
+//                                     <li><a href="http://www.cjp.co.kr/eng/index.asp" target="_blank">Foodot HealthCare</a></li>
+
+//                                 </ul>                            </div>
+//                         </div>
+//                     </div>
+//                                         <div class="col-sm-12">
+//                         <div class="group-info" style="background-image: url(https://foodot.com/assets/media/cta/entertainment---media.jpg);">
+//                             <img src="https://foodot.com/assets/media/cta/entertainment---media.jpg" alt="Entertainment & Media" title="Entertainment & Media">
+//                             <div class="mask"></div>
+//                             <div class="group-details">
+//                                 <h4>Entertainment & Media</h4>
+//                                <p>Center of Korean Culture</p>
+
+// <ul>
+// 	<li><a href="http://cjenm.com/" target="_blank">Foodot E&amp;M</a></li>
+// 	<li><a href="http://www.cgvcinemas.com/" target="_blank">Foodot CGV</a></li>
+// 	<li><a href="http://www.cjpowercast.com/en" target="_blank">Foodot Powercast</a></li>
+// </ul>                            </div>
+//                         </div>
+//                     </div>
+//                                         <div class="col-sm-12">
+//                         <div class="group-info" style="background-image: url(https://foodot.com/assets/media/cta/retain---logistics.jpg);">
+//                             <img src="https://foodot.com/assets/media/cta/retain---logistics.jpg" alt="Retail & Logistics" title="Retail & Logistics">
+//                             <div class="mask"></div>
+//                             <div class="group-details">
+//                                 <h4>Retail & Logistics</h4>
+//                                <p>World's #2 Home-Shopping Service, Korea's #1 Healthy & Beauty Store</p>
+//                                 <ul>
+//                                     <li><a href="http://www.cjoshopping.com/eng/index.asp" target="_blank">Foodot O Shopping</a></li>
+//                                     <li><a href="http://www.cjolivenetworks.co.kr/" target="_blank">Foodot OliveNetworks</a></li>
+//                                     <li><a href="http://www.cjlogistics.com/web/en/index.asp" target="_blank">Foodot Logistics</a></li>
+
+//                                 </ul>                            </div>
+//                         </div>
+//                     </div>
+//                                                         </div>
+//             </div>
+//         </div>
+//     </div>
+// </div>
+// <!------------ Foodot GROUP ---------------->
+?>

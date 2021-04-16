@@ -1,10 +1,10 @@
 <?php
-foreach($products->{$cat_id} as $product){
-    foreach (glob("assets/img/".$product->id."*.jpg") as $filename) {
-        if($filename != "assets/img/".$product->id."*.jpg") $product_images[] = $filename;
-        // echo "$filename size " . filesize($filename) . "\n";
-    }    
-}
+// foreach($products->{$cat_id} as $product){
+//     foreach (glob("assets/img/".$product->id."*.jpg") as $filename) {
+//         if($filename != "assets/img/".$product->id."*.jpg") $product_images[] = $filename;
+//         // echo "$filename size " . filesize($filename) . "\n";
+//     }    
+// }
 ?>
 
 <!---------- OUR PRODUCTS ---------------->
@@ -39,7 +39,12 @@ foreach($products->{$cat_id} as $product){
     <div class="down-arrow down-arrow-dark"></div>
 
     <?php foreach($products->{$cat_id} as $product) : ?>
-
+    <?php 
+        $product_images = array();
+        foreach (glob("assets/img/".$product->id."*.jpg") as $filename) { 
+            if($filename != "assets/img/".$product->id."*.jpg") $product_images[] = $filename;
+        }    
+    ?>
     <div class="back-white pb-30">
         <div class="">
             <div class=" bibigo-brand" id="bibigo-brand">

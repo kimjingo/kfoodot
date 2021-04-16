@@ -33,7 +33,7 @@ require("header.php");
 		<a href="/products-natural.php">
 			<div class="portfolio-box-1 photo">
             	<img src="/assets/img/nature-logo-white.png" alt=" " class="brand-white-logo">
-              	<div class="mask"></div>\
+              	<div class="mask"></div>
               	<img src="/assets/img/products-nature.jpg" alt=" ">   
 	       </div>
 	    </a>   

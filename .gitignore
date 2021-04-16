@@ -16,3 +16,4 @@ npm-debug.log
 yarn-error.log
 
 /assets/img/*
+config.php
