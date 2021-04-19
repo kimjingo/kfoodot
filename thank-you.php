@@ -35,7 +35,7 @@ Your request is important to us. We are reviewing your information and will resp
                 document.getElementById('counter').innerHTML = "Now, you will be redirected to homepage in " + count.toString() + " seconds.";
                 count--;
             }else{
-                window.location.href = "https://cjfoods.com/";
+                window.location.href = "/";
                 clearInterval(myVar);
             }
         }
