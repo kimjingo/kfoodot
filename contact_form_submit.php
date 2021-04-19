@@ -14,7 +14,7 @@ $qry = "CREATE table IF NOT EXISTS `contacts` (
     PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ";
 
-if(!$con->query($qry)) echo "Error: " . $sql . $con->error;
+if(!$con->query($qry)) echo "Error: " . $qry . $con->error;
 
 /*
 $first_name = $_POST['form']['first_name'];
