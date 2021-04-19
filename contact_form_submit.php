@@ -1,5 +1,19 @@
 <?php
-require_once "config.php";
+require_once "DBConnect.php";
+$table = "test2";
+$sql = "CREATE TABLE IF NOT EXISTS $table (
+id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+firstname VARCHAR(30) NOT NULL,
+lastname VARCHAR(30) NOT NULL
+)";
+
+if ($con->query($sql) === TRUE) {
+    echo "Table MyGuests created successfully";
+} else {
+    echo "Error creating table: " . $con->error;
+}
+
+$con->close();
 
 // $sql = "CREATE TABLE IF NOT EXIST $table (
 // id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
@@ -7,13 +21,13 @@ require_once "config.php";
 // lastname VARCHAR(30) NOT NULL
 // )";
 
-// if ($conn->query($sql) === TRUE) {
+// if ($con->query($sql) === TRUE) {
 //     echo "Table MyGuests created successfully";
 // } else {
-//     echo "Error creating table: " . $conn->error;
+//     echo "Error creating table: " . $con->error;
 // }
 
-// $conn->close();
+// $con->close();
 
 
 
@@ -51,7 +65,7 @@ require_once "config.php";
     
     // // Close connection
     // mysqli_close($link);
-
+/*
 $qry = "CREATE table IF NOT EXISTS `contacts` ( 
     `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
     `first_name` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT '',
@@ -106,6 +120,7 @@ $stmt->bind_param('sssssss', $first_name, $last_name, $email, $division, $subjec
 
 $stmt->execute();
 $con->close();
+*/
 
 // printf("%d row inserted.\n", $stmt->affected_rows);
 
