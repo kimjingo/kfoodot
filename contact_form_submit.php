@@ -1,5 +1,10 @@
 <?php
 require_once "config.php";
+$qry = "CREATE table IF NOT EXISTS `contacts` ( `id` int(10) unsigned NOT NULL AUTO_INCREMENT )";
+
+if( !$con->query($qry) ) echo "Error: " . $qry . $con->error;
+
+/*
 $qry = "CREATE table IF NOT EXISTS `contacts` ( 
     `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
     `first_name` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT '',
@@ -16,7 +21,6 @@ $qry = "CREATE table IF NOT EXISTS `contacts` (
 
 if(!$con->query($qry)) echo "Error: " . $qry . $con->error;
 
-/*
 $first_name = $_POST['form']['first_name'];
 $last_name = $_POST['form']['last_name'];
 $email = $_POST['form']['email'];
