@@ -1,5 +1,5 @@
 <?php
-require_once "DBConnect.php";
+require_once "dbconnect.php";
 $table = "test2";
 $sql = "CREATE TABLE IF NOT EXISTS $table (
 id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
