@@ -81,7 +81,6 @@ $qry = "CREATE table IF NOT EXISTS `contacts` (
 
 if(!$con->query($qry)) echo "Error: " . $qry . $con->error;
 
-/*
 $first_name = $_POST['form']['first_name'];
 $last_name = $_POST['form']['last_name'];
 $email = $_POST['form']['email'];
@@ -105,20 +104,21 @@ $ip_addr = $_SERVER['REMOTE_ADDR'] . (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])? 
 $curr = time();
 $qry = "SELECT UNIX_TIMESTAMP(created_at) created_at, ip_addr FROM contacts ORDER BY id DESC LIMIT 1";
 if($QR = $con->query($qry)){
-    $QD = $QR->fetch_assoc();
-    if( ($QD['created_at'] > ($curr-50) ) && ($QD['ip_addr'] == $ip_addr) ){
-        $message = "Please try again later";
-        require('contact.php');
-        exit;
-    }
+  $QD = $QR->fetch_assoc();
+  if( ($QD['created_at'] > ($curr-50) ) && ($QD['ip_addr'] == $ip_addr) ){
+    $message = "Please try again later";
+    require('contact.php');
+    exit;
+  }
 } else {
-    echo "Error: " . $qry . $con->error;
+  echo "Error: " . $qry . $con->error;
 }
 
 $stmt = $con->prepare("INSERT INTO contacts(first_name, last_name, email, division, subject, message, ip_addr) VALUES (?, ?, ?, ?, ?, ?, ?)");
 $stmt->bind_param('sssssss', $first_name, $last_name, $email, $division, $subject, $message, $ip_addr);
 
 $stmt->execute();
+/*
 */
 
 // printf("%d row inserted.\n", $stmt->affected_rows);
