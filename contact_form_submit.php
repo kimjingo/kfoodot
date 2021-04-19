@@ -1,20 +1,5 @@
 <?php
-// require_once "config.php";
-// $qry = "CREATE table IF NOT EXISTS `contacts` ( `id` int(10) unsigned NOT NULL AUTO_INCREMENT )";
-// if( !$con->query($qry) ) echo "Error: " . $qry . $con->error;
-
-// Include config file
 require_once "config.php";
-
-// $conn = new mysqli($servername, $username, $password, $database);
-
-
-// if (mysqli_connect_error()) {
-//     die("Database connection failed: " . mysqli_connect_error());
-// }
-// echo "Connected successfully";
-
-
 
 // $sql = "CREATE TABLE IF NOT EXIST $table (
 // id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
@@ -67,7 +52,6 @@ require_once "config.php";
     // // Close connection
     // mysqli_close($link);
 
-/*
 $qry = "CREATE table IF NOT EXISTS `contacts` ( 
     `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
     `first_name` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT '',
@@ -121,8 +105,8 @@ $stmt = $con->prepare("INSERT INTO contacts(first_name, last_name, email, divisi
 $stmt->bind_param('sssssss', $first_name, $last_name, $email, $division, $subject, $message, $ip_addr);
 
 $stmt->execute();
+$con->close();
 
-*/
 // printf("%d row inserted.\n", $stmt->affected_rows);
 
 /* Clean up table CountryLanguage */
