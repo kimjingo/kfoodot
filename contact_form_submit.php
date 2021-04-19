@@ -1,19 +1,18 @@
 <?php
 require_once "dbconnect.php";
-$table = "test2";
-$sql = "CREATE TABLE IF NOT EXISTS $table (
-id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-firstname VARCHAR(30) NOT NULL,
-lastname VARCHAR(30) NOT NULL
-)";
+// $table = "test2";
+// $sql = "CREATE TABLE IF NOT EXISTS $table (
+// id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+// firstname VARCHAR(30) NOT NULL,
+// lastname VARCHAR(30) NOT NULL
+// )";
 
-if ($con->query($sql) === TRUE) {
-    echo "Table MyGuests created successfully";
-} else {
-    echo "Error creating table: " . $con->error;
-}
+// if ($con->query($sql) === TRUE) {
+//     echo "Table MyGuests created successfully";
+// } else {
+//     echo "Error creating table: " . $con->error;
+// }
 
-$con->close();
 
 // $sql = "CREATE TABLE IF NOT EXIST $table (
 // id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
@@ -65,7 +64,7 @@ $con->close();
     
     // // Close connection
     // mysqli_close($link);
-/*
+
 $qry = "CREATE table IF NOT EXISTS `contacts` ( 
     `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
     `first_name` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT '',
@@ -82,6 +81,7 @@ $qry = "CREATE table IF NOT EXISTS `contacts` (
 
 if(!$con->query($qry)) echo "Error: " . $qry . $con->error;
 
+/*
 $first_name = $_POST['form']['first_name'];
 $last_name = $_POST['form']['last_name'];
 $email = $_POST['form']['email'];
@@ -119,7 +119,6 @@ $stmt = $con->prepare("INSERT INTO contacts(first_name, last_name, email, divisi
 $stmt->bind_param('sssssss', $first_name, $last_name, $email, $division, $subject, $message, $ip_addr);
 
 $stmt->execute();
-$con->close();
 */
 
 // printf("%d row inserted.\n", $stmt->affected_rows);
@@ -179,5 +178,8 @@ mail($to, $subject, $message, implode("\r\n", $headers)) ;
 // header('Location: /thank-you.php');
 // exit;
 */
+
+$con->close();
+
 require('thank-you.php');
 ?>
