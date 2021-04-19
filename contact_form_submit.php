@@ -1,4 +1,5 @@
 <?php
+/*
 require_once "config.php";
 $qry = "CREATE table IF NOT EXISTS `contacts` ( 
     `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
@@ -53,6 +54,7 @@ $stmt->bind_param('sssssss', $first_name, $last_name, $email, $division, $subjec
 
 $stmt->execute();
 
+*/
 // printf("%d row inserted.\n", $stmt->affected_rows);
 
 /* Clean up table CountryLanguage */
