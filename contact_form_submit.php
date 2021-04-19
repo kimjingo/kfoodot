@@ -1,6 +1,5 @@
 <?php
 require_once "config.php";
-/*
 $qry = "CREATE table IF NOT EXISTS `contacts` ( 
     `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
     `first_name` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT '',
@@ -14,8 +13,10 @@ $qry = "CREATE table IF NOT EXISTS `contacts` (
     `ip_addr` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT '',
     PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ";
+
 if(!$con->query($qry)) echo "Error: " . $sql . $con->error;
 
+/*
 $first_name = $_POST['form']['first_name'];
 $last_name = $_POST['form']['last_name'];
 $email = $_POST['form']['email'];
