@@ -8,7 +8,7 @@
             <meta charset="UTF-8">
             <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1,requiresActiveX=true'><![endif]-->
             <meta name="viewport" content="width=device-width, initial-scale=1">
-	       <link rel="icon" href="https://foodot.com/assets/img/fav-icon.png" type="image/x-icon">
+	       <link rel="icon" href="/assets/img/fav-icon.png" type="image/x-icon">
 	<!-------------------- meta tags ------------------------>
 	
 	<!----------------------------------- Stylesheet starts ------------------->
