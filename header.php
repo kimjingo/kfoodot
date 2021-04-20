@@ -115,32 +115,11 @@
         <div class="menu-container">
             <div class="logo">
                 <a href="/">
-                    <img src="/assets/img/foodot-logo.png" alt="CJ Foods"/>
+                    <img src="/assets/img/foodot-logo.png" alt="Foodot"/>
                 </a>
             </div>
             <div class="menu">
                 <ul id="menu-nav" style="position:relative">
-                                        <!--<li>
-                        <a href="https://foodot.com/#about-section" class="page-scroll">About us</a>
-                    </li>
-                    <li class="menu-dropdown-icon">
-                        <a href="https://foodot.com/our-brands" class="page-scroll">Brands</a>
-                        <ul>
-                            <li class="full-width">
-                                <ul>
-                                    <li><a href="https://foodot.com/our-brands/bibigo" class="page-scroll">Bibigo</a></li>
-                                    <li><a href="https://foodot.com/our-brands/annie-chunns" class="page-scroll">Annie Chun's</a></li>
-                                    <li><a href="https://foodot.com/our-brands/cj-cheiljedang" class="page-scroll">CJ Cheiljedang</a></li>
-                                </ul>
-                            </li>                                                                                                                                                        
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="https://foodot.com/careers" class="page-scroll"> Careers</a>
-                    </li>
-                    <li>
-                        <a href="https://foodot.com/contact" class="page-scroll">Contact</a>
-                    </li>-->
                     
                     <li class="page-scroll"><a href="/#about-section">About us</a></li>
                     <li class="page-scroll"><a href="/#mission-section">Mission</a></li>
