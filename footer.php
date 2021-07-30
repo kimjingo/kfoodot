@@ -24,10 +24,10 @@
 									
 								<div  class="address" itemscope itemtype="http://schema.org/LocalBusiness">
 									<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" onclick="window.open('https://goo.gl/maps/jTR43Xkdqv5kdoTYA')" style="cursor:pointer">
-										<span itemprop="streetAddress">22912 LOCKNESS AVE.</span>,
-										<span itemprop="addressLocality">TORRANCE</span>,
+										<span itemprop="streetAddress">14077 Stage Rd.</span>,
+										<span itemprop="addressLocality">Santa Fe Springs</span>,
 										<span itemprop="addressRegion">CA</span>
-										<span itemprop="postalCode">90501</span> 
+										<span itemprop="postalCode">90670</span> 
 									       
 									</div>
                                     <div>
